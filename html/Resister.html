@@ -90,7 +90,8 @@ $(".toggle").click(function () {
    <!--Form-->
      <div class="login-form">
          <form class="validate-form">
-                
+          <center><i class="fa fa-user-circle" aria-hidden="true" style="font-size: 95px;color: #ff0000;"></i></center>
+          <!--username Input-->
    <!--username Input-->
           <div class="login-form-username">
                      <div class="FirstName">
@@ -148,7 +149,40 @@ $(".toggle").click(function () {
                   
              </div>
         </div>
+              <!-- confirm password input -->
+       <div class="wrap-input5 validate-input" data-validate="Enter password">
+
+        <div class="login-form-password" >
+                       <input class="input5"
+                        type="password"
+                         name="password"
+                         required="">
+                       <label class="focus-input" >
+                    confirm Password</label> 
+ <!--icone eye-->  
+                      <span toggle="#password-field"
+                         class="fa fa-fw fa-eye field-icon toggle-password"></span>
+             
+        </div>
+
+
+             <!--gender input -->
+             <center>
+              <div class="wrap-input5 validate-input" data-validate="Enter gender" >
+                 <tr>
+                     <td>
+                         <select>
+                             <option>Gender</option>
+                             
+                             <option>female</option>
+                             <option>male</option>
+                         </select>
+                     </td>
+                 </tr>
+             </div>
+              </center>
       <!--Login Button-->
+
            <div class="login-form-button">
                          <div>
                             <input class="login-button" type="submit" value="Sign up">
