@@ -522,7 +522,7 @@ ul > li > a:hover:after {
 	width: 240px;
 	height: 230px;
 	background: #fff;
-	box-shadow: 0 5px 15px rgpa(0,0,0,.25);
+	box-shadow: 0 5px 15px rgba(0,0,0,.25);
 	border-radius: 5px;
 	overflow: hidden;
 }
@@ -538,13 +538,14 @@ ul > li > a:hover:after {
 .dateils{
 	position: absolute;
 	width: 100%;
-	bottom: -70px;
+	bottom: -60px;
 	background: #fff;
-	padding: 10px;
+	padding:  0 10px 10px 10px;
 	box-sizing: border-box;
-	box-shadow: 0 0 0 rgpa(0,0,0,0);
+	box-shadow: 0 0 0 rgba(0,0,0,0);
 	transition: .5s;
-    border: #eee solid 2px;
+  border: #eee solid 2px;
+ height: 110px;
 }
  .items1:hover .dateils{
 	bottom: 0;
@@ -552,17 +553,25 @@ ul > li > a:hover:after {
 }
 .dateils1 h4{
 	margin: 0 0 0 0;
-    top: 0px;
+ top: 0px;
 	padding: 0;
 	font-size: 6px;
 	width: 100%;
 	position: relative;
+ 
 }
-.dateils h4 span a{
+.dateils .desc{
+ height: 50px;
+}
+
+.dateils .desc span a{
 	font-size: 15px;
 	color:  #5c5c3d;
 	font-weight: normal;
-	text-decoration: none
+	text-decoration: none;
+ 
+ 
+ 
 }
 .dateils .price{
 	position: absolute;
@@ -581,7 +590,7 @@ ul > li > a:hover:after {
  height: 100%;
  background-size:cover;
  position: absolute;
- margin-top: 400px;
+ margin-top: 450px;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }
