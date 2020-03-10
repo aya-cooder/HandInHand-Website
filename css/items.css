@@ -1,7 +1,5 @@
 /*****************Global Css *******************/
 
-/*****************Global Css *******************/
-
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -520,7 +518,7 @@ ul > li > a:hover:after {
 	top: 200px;
 	transform: translate(-50%,-50%);
 	width: 240px;
-	height: 230px;
+	height: 280px;
 	background: #fff;
 	box-shadow: 0 5px 15px rgba(0,0,0,.25);
 	border-radius: 5px;
@@ -538,45 +536,18 @@ ul > li > a:hover:after {
 .dateils{
 	position: absolute;
 	width: 100%;
-	bottom: -60px;
+	bottom: 60px;
 	background: #fff;
 	padding:  0 10px 10px 10px;
 	box-sizing: border-box;
-	box-shadow: 0 0 0 rgba(0,0,0,0);
-	transition: .5s;
-  border: #eee solid 2px;
- height: 110px;
-}
- .items1:hover .dateils{
-	bottom: 0;
-	box-shadow: 0 -5px 15px rgba(0,0,0,.25);
-}
-.dateils1 h4{
-	margin: 0 0 0 0;
- top: 0px;
-	padding: 0;
-	font-size: 6px;
-	width: 100%;
-	position: relative;
- 
-}
-.dateils .desc{
- height: 50px;
-}
-
-.dateils .desc span a{
-	font-size: 15px;
-	color:  #5c5c3d;
-	font-weight: normal;
-	text-decoration: none;
- 
- 
- 
+	box-shadow: 0 0 0 rgba(0,0,0,0); 
+ height: 20px;
+ margin-top: -60px;
 }
 .dateils .price{
 	position: absolute;
-	top: 0;
-  right: 0;
+	top: 40px;
+ margin-left: 13px;
 	font-weight: bold;
 	color: #ff0000;
 	font-size: 20px;
@@ -658,4 +629,4 @@ position: absolute;
   font-size: 18px;
  position: absolute;
 }
-/** start social**/ 
+/** start social**/
