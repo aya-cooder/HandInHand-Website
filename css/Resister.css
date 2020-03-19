@@ -130,7 +130,12 @@ font-weight: bold;
 display: block;
 height: 35px;
 text-decoration: none;
+transition: all 1s ease;
 
+}
+.nav > li > a:hover{
+font-size: 20px;
+font-weight: bolder;
 }
 
 @media(min-width:768px) {
@@ -170,8 +175,6 @@ text-decoration: none;
   padding: 0 15px;
   border: none;
 }
-
-
 .show {
 height: 220px;
 float: right;

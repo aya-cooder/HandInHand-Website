@@ -1,35 +1,10 @@
-/*****************Global Css *******************/
-
-/*****************Global Css *******************/
-
-* {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
+/** mobile & tablet**/
+@media(max-width:767px){
  
-}
-
-body {
-  font-family: 'arial', sans-serif;
-  outline: none;
-  background-color: #fff;
-  padding: 0px;
-  margin: 0px;
-
-   
-}
-
-input,
-button {
-  cursor: pointer
-}
-
-.clearfix {
-  clear: both
-}
-
-
-/* Start Navbar*/
+ /* Start Navbar*/
+ body{
+  height: 900px;
+ }
 
 a {
   text-decoration: none;
@@ -55,16 +30,16 @@ a:hover {
 
   padding: 0 40px 0px 20px;
   height: 20px;
-  margin-top: -17px;
-  margin-left: -80px;
+  margin-top: -7px;
+  margin-left: -50px;
   line-height: 60px;
   display: block;
   position: absolute;
 }
 
 .navbar-brand img {
- width: 55px;
- height: 55px;
+ width: 45px;
+ height: 45px;
 }
 
 .toggle {
@@ -178,8 +153,8 @@ margin-top: 10px;
 }
 
 form{
-    margin-left: 910px;
-    margin-top: 0px;
+    margin-left: 210px;
+    margin-top: 7px;
     position: absolute;
     
 }
@@ -189,16 +164,18 @@ form input{
     background: #eee;
     padding: 5px;
     position: absolute;
+    width: 150px;
+    height: 30px;
 }
 
 form i{
-    width: 40px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
   color: #Ff0000;
   text-align: center;
   padding-top: 5px;
   margin-top: 1px;
-  margin-left: 185px;
+  margin-left: 152px;
     border-radius:5px;
     border: 1px solid #ccc;
      box-shadow: 3px 2px 10px  #E4E4E4,
@@ -211,8 +188,8 @@ form i{
   float: right;
   padding-top: 2px;
   position: relative;
-  margin-top: -6px;
-  margin-left: 1120px;
+  margin-top: 2px;
+  margin-left: 365px;
   cursor: pointer;
   background: none;
   border: none;
@@ -277,130 +254,24 @@ margin-left: -60px;
 
 
 }
-
-
-@media(min-width:768px) {
-  .navbar {
-    height: 60px;
-    background-color: #fff;
-  }
-  .navbar-header {
-    float: left;
-  }
-  .toggle {
-    display: none;
-  }
-
-  .navlist {
-    display: block;
-    height: 0 !important;
-    padding-bottom:25px !important;
-    background: transparent !important;
-    width: auto;
-    margin: 0px 100px;
-    padding: 0;
-    overflow: visible;
-    top:0
-  }
-  .nav {
-    margin: 0;
-    padding: 0;
-  }
-  .nav > li {
-    float: left;
-    list-style: none;
-    padding: 5px;
-  }
-  .nav > li > a {
-    border-radius: 5px !important;
-    background: transparent;
-    padding: 0 15px;
-    border: none;
-  }
-
-
-.show {
-  height: 220px;
-  float: right;
-}
-
-
-/* Start Navbar*/
-
-
-/****************** Start Media Querry ******************/
-
-
-/*  Mobile & Tablet */
-@media (max-width:767px) {
- .landing-image{
-    position: absolute;
-    background-image: url('../images/home-image.jpg');
-    width:767px;
-    height:60%;
-    background-size:cover;
-
-}
  
-}
-
-
-
-/* Small Screen */
-/*
-@media (max-width:768px) {
-   .navlist {
-    position: absolute;
-    bottom: 44px;
-
-    right: 0;
-    top: auto;
-  }
-
-  
-  .navbar {
-    position: relative;
-  }
-  .container {
-    width: 780px;
-  }
  
-}
-
--/
-/* Mudium Screen */
-
-@media (min-width:992px) {
-  .container {
-    width: 970px;
-  }
-
-}
-
-
-/* Large Screen */
-
-@media (min-width:1200px) {
-  .container {
-    width: 1130px;
-  }
-
-}
-
-/****************** End Media Querry ******************/
-
-/** start hand image**/
+ 
+ 
+ /** start hand image**/
 .landing{
  
     width: 100%;
-    height:50%;  
+    height:50%;
+    max-width:767px;
 }
 .landing-image{
     position: absolute;
     background-image: url('../images/home-image.jpg');
     width: 100%;
-    height:100%;
+    height:50%;
     background-size:cover;
+   
 
 }
     
@@ -411,7 +282,7 @@ margin-left: -60px;
 
 .curve-layer1 {
 
-    width: 100%;
+    width: 120%;
     height: 100%;
 overflow: hidden;
 }
@@ -419,16 +290,16 @@ overflow: hidden;
    width:70%; 
 }
   .landing .landing-image .hand .imagelogo{
- width: 100%;
- height:140%;
- margin: -648px 575px;
+ width: 90%;
+ height:130%;
+ margin: -348px 255px;
  position: absolute;
 transform: rotatez(0deg);
   }
    .landing .landing-image .hand .imagehand{
-  width: 90%;
-  height:70%;
-  margin: -900px 50px;
+  width: 70%;
+  height:50%;
+  margin: -470px 20px;
   position: absolute;
   }
 .hand{
@@ -443,17 +314,20 @@ transform: rotatez(0deg);
 .landing .text{
  width: 400px;
  height: ;
- margin: -750px 52px;
+ margin: -420px 20px;
+}
+.landing .text h1{
+ font-size: 20px;
 }
 .landing .text h1 ,h2{
  color: #fff;
 }
 .landing .text h2{
- padding-top: 10px;
- font-size: 20px;
+ width: 250px;
+ padding-top: 0px;
+ font-size: 15px;
  color: #fff;
- font-weight:bold;
-   line-height: 33px;
+   line-height: 19px;
 }
 .landing .text a{
  color: #fff;
@@ -462,32 +336,39 @@ transform: rotatez(0deg);
  width: 200px;
  height: 20px;
  padding: 3px 20px 5px 20px;
- font-size: 20px;
+ font-size: 18px;
  font-weight: bold;
  top: 5px;
  text-decoration: none;
  position: relative;
- margin:12px 80px ;
+ margin:-20px 50px ;
  text-align: center;
 }
-/** end hand image**/
-
-
-/** start items**/
-.cotainer{
- margin-top: 650px;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ .cotainer{
+ margin-top: -100px;
  margin-left: 40px;
  padding-right:30px;
+
  
 }
-#two_row{
- margin-top: 300px;
-}
+
 
 .cotainer .row .items{
  border:  2.4px solid #ccc;
  border-radius: 6px;
   position: absolute;
+ 
   
 }
 .cotainer .row .image .ig1{
@@ -498,44 +379,51 @@ transform: rotatez(0deg);
  margin: 0px 0 0 0;
 }
 .cotainer .row .items .background1{
- width: 600px;
- height: 250px;
+ width: 400px;
+ height: 270px;
  position: relative;
 }
 .cotainer .row .image .ig2{
  width: 40%;
- height: 80%;
+ height: 50%;
  position: absolute;
- margin: 10px 0 0 0;
+ margin: 280px 0 0 0;
+ 
 }
 .cotainer .row .items .background2{
- width: 600px;
- height: 250px;
+ width: 400px;
+ height: 270px;
  position: relative;
+ margin-top: 270px;
+ 
 }
-
+#two_row{
+ margin-top: 543px;
+}
 .cotainer .row .image .ig3{
  width: 40%;
- height: 90%;
+ height: 50%;
  transform: rotatey(180deg);
  position: absolute;
- margin: 0px 0 0 0;
+ margin: 50px 0 0 0;
 }
 .cotainer .row .items .background3{
- width: 600px;
+ width: 400px;
  height: 250px;
  position: relative;
+ margin-top: 0px;
 }
 .cotainer .row .image .ig4{
 width: 40%;
-height: 90%;
+height: 50%;
 position: absolute;
-margin: 0px 0 0 0;
+margin: 250px 0 0 0;
 }
 .cotainer .row .items .background4{
-width: 600px;
+width: 400px;
 height: 250px;
 position: relative;
+margin-top: 270px;
 }
 .cotainer .row .image h3{
  position: absolute;
@@ -543,7 +431,7 @@ position: relative;
   font-family: good times;
   font-weight: bold;
  font-size: 40px;
- margin: 40px 0 0 240px;
+ margin: 40px 0 0 110px;
 }
     @font-face {
         font-family: "paraaminobenzoic";
@@ -552,7 +440,13 @@ position: relative;
     h3.custom_font {
         font-family: "paraaminobenzoic";
     }
- 
+    .cotainer .row .image .h_service{
+     margin-top: 310px;
+    }
+  .cotainer .row .image .h_handmade{
+     margin-top: 290px;
+     margin-left: 125px;
+    }
 .cotainer .row .paragrph{
  position: absolute;
 }
@@ -565,47 +459,55 @@ position: relative;
  color: #fff;
  text-decoration: none;
  padding: 4px 10px 4px  10px;
-margin: -100px 0 0 455px;
+margin: -100px 0 0 255px;
 width: 130px;
 }
 .cotainer .row .paragrph p{
  position: absolute;
  color: #fff;
  font-size: 15px;
- margin: -42px 0 0 213px;
- width: 400px;
+ margin: -42px 0 0 143px;
+ width: 260px;
  
 }
 .cotainer .row .paragrph .paragrph1{
- margin: -42px 0 0 210px;
+ margin: -42px 0 0 143px;
 }
 .cotainer .row .paragrph .paragrph3{
- margin: -42px 0 0 215px;
+ margin: -42px 0 0 143px;
 }
 .cotainer .row .paragrph .paragrph2{
- margin: -42px 0 0 250px;
+ margin: -42px 0 0 143px;
 }
 #path-2{
  position: absolute;
   fill:#00363d;
   fill-opacity:0.91;
 }
-/** end items**/
-
-
-/** start social**/
+/** end items**/   
+    
+    
+    
+    
+    
+    
+    
+    
+  /** start social**/
 .end{
- width:100%;
- height: 100%;
+ width:485px;
+ max-width:767px;
+ height: 60%;
  background-size:cover;
  position: absolute;
- margin-top: 400px;
+ margin-top: 600px;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }
 .end .imag{
   background-image: url('../images/backtoschool-07Converted.png');
-   width:100%;
+  width:485px;
+ max-width:767px;
  height: 100%;
  background-size:cover;
  position: absolute;
@@ -621,50 +523,60 @@ width: 130px;
 }
 
 .end .imag .image2 img{
- width: 11%;
- margin-top: 70px;
+ width: 18%;
+ margin-top: 50px;
  position: absolute;
- margin-left: 350px;
+ margin-left: 110px;
 }
 .end .imag .image3 img{
- width: 11%;
-margin-top: 180px;
+ width: 18%;
+margin-top: 130px;
 position: absolute;
- margin-left:180px;
+ margin-left:60px;
 }
 .end .link li{
  list-style: none;
 }
 .end .link li a{
  color: #000;
- font-size: 25px;
+ font-size: 16px;
 }
 .end .link li .link1{
- margin: 110px 0 0 320px;
+ margin: 65px 0 0 75px;
  position: absolute;
  text-decoration: none;
 }
 .end .link li .link2{
- margin: 210px 0 0 160px;
+ margin: 140px 0 0 30px;
  position: absolute;
  text-decoration: none;
 }
 .end .link .social i{
- font-size: 45px;
+ font-size: 25px;
 }
 .end .link .social .social1{
-  margin: 150px 0 0 930px;
+  margin: 102px 0 0 330px;
  position: absolute;
 }
 .end .link .social .social2{
-  margin: 390px 0 0 955px;
+  margin: 190px 0 0 340px;
  position: absolute;
 }
 .end .link .social  p{
  color: #fff;
- margin-top: 520px;
-  margin-left:500px;
-  font-size: 18px;
+ margin-top: 300px;
+  margin-left:60px;
+  font-size: 15px;
  position: absolute;
 }
-/** start social**/ 
+  
+}
+
+
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+
+
