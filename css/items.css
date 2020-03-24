@@ -1,5 +1,7 @@
 /*****************Global Css *******************/
 
+/*****************Global Css *******************/
+
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -165,7 +167,7 @@ margin-top: 10px;
   display: block;
   height: 35px;
   text-decoration: none;
-
+transition: all 1s ease;
 }
 
 .nav > li > a:hover{
@@ -445,6 +447,12 @@ ul > li > a:hover:after {
   position: absolute;
   
 }
+.cotainer .row .items .background1{
+ width: 1300px;
+ height: 315px;
+ position: relative;
+ 
+}
 
 .cotainer .row .image h3{
  position: absolute;
@@ -524,14 +532,27 @@ ul > li > a:hover:after {
 	border-radius: 5px;
 	overflow: hidden;
 }
+#marg-top{
+ margin-top: 350px;
+}
 .items1 .imgbox{
 	height: 100%;
 	box-sizing: border-box;
+}
+#marg-left-2{
+ margin-left: 70px;
+}
+#marg-left-3{
+ margin-left: 90px;
+}
+#marg-left-4{
+ margin-left: 110px;
 }
  .items1 .imgbox img{
 	display: block;
 	width: 90%;
 	margin: 20px auto 0;
+ height: 200px;
 }
 .dateils{
 	position: absolute;
@@ -541,16 +562,24 @@ ul > li > a:hover:after {
 	padding:  0 10px 10px 10px;
 	box-sizing: border-box;
 	box-shadow: 0 0 0 rgba(0,0,0,0); 
- height: 20px;
+ height: 40px;
  margin-top: -60px;
 }
+#name{
+ margin-top: 8px;
+ margin-left: 11px;
+font-size: 17px;
+height: 67px;
+overflow: hidden;
+}
+
 .dateils .price{
 	position: absolute;
-	top: 40px;
- margin-left: 13px;
+	top: 73px;
+ margin-left: 11px;
 	font-weight: bold;
 	color: #ff0000;
-	font-size: 20px;
+	font-size: 17px;
 }
 /**end items**/
 
@@ -629,4 +658,4 @@ position: absolute;
   font-size: 18px;
  position: absolute;
 }
-/** start social**/
+/** start social**/ 
