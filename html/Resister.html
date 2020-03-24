@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="../css/Resister.css" />
+        <link rel="stylesheet" type="text/css" href="../css/resisterresponsive.css" />
     <!----============================================================================================-->
          <link rel="shortcut icon" href="../images/HandInHand.png" type="../images/HandInHand.png"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +36,6 @@ $(".toggle").click(function () {
   </head>
 <body>
    <!-- Start Navbar -->
-
         <div class="navbar elem-center">
             <div class="container">
                <div class="parent left-right">
@@ -48,11 +48,11 @@ $(".toggle").click(function () {
                       <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
                     </div>
                       <ul class="nav navlist" id="links" style="margin-left:450px;margin-top: 10px;position: absolute;">
-                        <li class="active" >
-                           <a href="#" data-value="about" class="effect">Items</a></li>
-                        <li><a href="#" data-value="port"class="effect">Services</a></li>
-                        <li><a href="#" data-value="foll"class="effect">Events</a></li>
-                        <li><a href="#" data-value="cont"class="effect">Handmade</a></li>
+                        <li class="active" style="">
+                        <a href="items.html" data-value="about" class="effect">Items</a></li>
+                        <li><a href="service.html" data-value="port"class="effect">Services</a></li>
+                        <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
+                        <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
                       </ul>
                         <form class="navbar-form navbar-right">
                        <input type="text" placeholder="Search">
@@ -89,11 +89,11 @@ $(".toggle").click(function () {
   <section id="cont">
    <!--Form-->
      <div class="login-form">
-         <form class="validate-form">
-          <center><i class="fa fa-user-circle" aria-hidden="true" style="font-size: 95px;color: #ff0000;"></i></center>
-          <!--username Input-->
+         <form class="validate-form" method="post">
+                <center><i class="fa fa-user-circle" aria-hidden="true" style="font-size: 95px;color: #ff0000;"></i></center>
    <!--username Input-->
           <div class="login-form-username">
+                  
                      <div class="FirstName">
                      <input class="input1"
                       type="text"
@@ -108,7 +108,7 @@ $(".toggle").click(function () {
                       type="text" 
                       name="Second Name"
                       required="">
-                      <label class="focus-input">
+                      <label class="focus-input"id="inp2">
                         Second Name</label>
                    </div>
           </div>
@@ -149,26 +149,38 @@ $(".toggle").click(function () {
                   
              </div>
         </div>
-              <!-- confirm password input -->
+                  <!-- confirm password input -->
        <div class="wrap-input5 validate-input" data-validate="Enter password">
 
-        <div class="login-form-password" >
-                       <input class="input5"
-                        type="password"
-                         name="password"
-                         required="">
-                       <label class="focus-input" >
-                    confirm Password</label> 
- <!--icone eye-->  
-                      <span toggle="#password-field"
-                         class="fa fa-fw fa-eye field-icon toggle-password"></span>
-             
+             <div class="login-form-password" >
+                            <input class="input5"
+                             type="password"
+                              name="password"
+                              required="">
+                            <label class="focus-input" >
+                         confirm Password</label> 
+      <!--icone eye-->  
+                           <span toggle="#password-field"
+                              class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                  
+             </div>
         </div>
-
-
-             <!--gender input -->
-          
-              <div class="login-form-gender" >
+               <!--gender input -->
+               <center>
+                     <div class="wrap-input5 validate-input" data-validate="Enter gender" id="gender">
+                        <tr>
+                            <td>
+                                <select>
+                                    <option>Gender</option>
+                                    
+                                    <option>female</option>
+                                    <option>male</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </div>
+                     </center>
+               <div class="login-form-gender" >
                 <div>
                 <label class="Gender" for="Gender">Gender</label>
               </div>
@@ -183,9 +195,7 @@ $(".toggle").click(function () {
                 </div>
               </div>
              </div>
-             
       <!--Login Button-->
-
            <div class="login-form-button">
                          <div>
                             <input class="login-button" type="submit" value="Sign up">
@@ -193,7 +203,7 @@ $(".toggle").click(function () {
                           </div>
                            <div class="new-account">
                              <span> <a href="login.html" 
-                                target="blank"> Already have an account?</a>    </span>
+                                target="blank" id="account"> Already have an account?</a>    </span>
                             </div>
              </div>
        </form>

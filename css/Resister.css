@@ -350,7 +350,7 @@ padding-bottom:35px ;
 
 .login-form {
   width: 45%;
-  height: 100vh;
+  height: 103vh;
   background-color:#ffffff20;
   position: relative;
   margin-top: 98px;
@@ -425,7 +425,7 @@ font-family: arial;
 position: absolute;
 display: block;
 width: 100%;
-margin-top:-20px ;
+margin-top:-10px ;
 padding:0px  10px;
 font-size: 18px;
 font-weight: bold;
@@ -433,11 +433,12 @@ color: rgba(255, 255, 255, 0.795);
 transition: all 0.4s;
 pointer-events: none;
 }
+
 .Male-Famel{
 position: absolute;
 display: block;
 width: 100%;
-margin-top:15px ;
+margin-top:10px ;
 padding:0px  10px;
 
 
@@ -447,7 +448,7 @@ padding:0px  10px;
  
 }
 .Female-input{
-  float: right;
+  float: right; 
   padding-right: 312px;
 }
 
@@ -475,8 +476,11 @@ padding:0px  10px;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.795);
   background: transparent;
-  padding-left:35px;
+  padding-left:45px;
   padding-top:15px;
+ }
+ #gender{
+  display: none;
  }
 /*==================================================================
   [ Focus input ]*/
@@ -485,7 +489,7 @@ padding:0px  10px;
 font-family: arial;
 position: absolute;
 display: block;
-width: 100%;
+width: 120%;
 margin-top:-35px ;
 padding:0px  10px;
 font-size: 16px;
@@ -514,8 +518,8 @@ margin-top:-78px ;
 }
 .field-icon {
   float: right;
-  padding-right :20px;
-  margin-top: -40px;
+  padding-right :30px;
+  margin-top: -30px;
   position: relative;
   color: rgb(248, 10, 10);
   z-index: 2;
