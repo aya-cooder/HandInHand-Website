@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/events.css">
+        <link rel="stylesheet" href="../css/eventresponsive.css">
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.js">
         <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -42,13 +43,13 @@ $(".toggle").click(function () {
                       </div>
                       <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
                     </div>
-                    <ul class="nav navlist" id="links" style="margin-left:450px;margin-top: 10px;position: absolute;">
-                      <li class="active" >
-                       <a href="items.html" data-value="about" class="effect">Items</a></li>
-                      <li><a href="service.html" data-value="port"class="effect">Services</a></li>
-                      <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
-                      <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
-                    </ul>
+                      <ul class="nav navlist" id="links" style="margin-left:450px;margin-top: 10px;position: absolute;">
+                        <li class="active" style="">
+                        <a href="items.html" data-value="about" class="effect">Items</a></li>
+                        <li><a href="service.html" data-value="port"class="effect">Services</a></li>
+                        <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
+                        <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
+                      </ul>
                         <form class="navbar-form navbar-right">
                        <input type="text" placeholder="Search">
                        <i class="fa fa-search"></i>
@@ -79,7 +80,7 @@ $(".toggle").click(function () {
         </div>
         <!-- End Navbar -->
         
-            <div class="cotainer">
+            <div class="cotainer"id="event">
             <div class="row" >
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
                <div class="items">
@@ -87,11 +88,11 @@ $(".toggle").click(function () {
                     <img src="../images/marginalia-education.png"class="ig1"style="width: 40%;height: 110%;transform: rotatey(180deg);position: absolute;margin: 0px 0 0 0px;" >
                     <h3>EVENTS</h3>
                   </div>
-                    <img src="../images/path2.png"class="background1" style="width: 1300px; height: 315px;position: relative">
+                    <img src="../images/path2.png"class="background1">
                    
                     <div class="paragrph">
                            
-                           <p class="paragrph2">know the events in your university oy in your zone.</p>
+                           <p class="paragrph2">know the events in your university or in your zone.</p>
                     </div>
                     
                </div>
@@ -109,45 +110,73 @@ $(".toggle").click(function () {
             
             
             <!--start events-->
-             <center>
-                <div class="interset">
-                <div class="image">
-                     <span class="image1"><i class="fa fa-star" aria-hidden="true"></i></span>
-                     <span class="image2"><img src="../images/Path 1.png"></span>
+            <div class="interset">
+                <div class="events">
+                    <img class="image-event"src="../images/e1.png">
+                </div>
+                <div class="shadow">
+                    <div class="images">
+                     <span class="image-1"><i class="fa fa-star" aria-hidden="true"></i></span>
+                     <span class="image-2"><img src="../images/Path 1.png"></span>
                     </div>
-                <div class="inter">
+                    </div>
+                    <div class="inter">
                     <h5>
                         9
                     </h5>
                     <h6>
                        interset 
                     </h6>
-                </div>
-                </div>
-                </div>
-             </center>
-             
-             
-             
-             
-                          <center>
-                <div class="interset1">
-                <div class="image1">
-                     <span class="image4"><i class="fa fa-star-o" aria-hidden="true"></i></span>
-                     <span class="image2"><img src="../images/Path 1.png"></span>
-                     
                     </div>
-                <div class="inter1">
+                </div>
+            </div>
+                 
+                 <div class="clearfix" id="clear"></div>
+                 
+                  <div class="interset">
+                <div class="events">
+                    <img class="image-event"src="../images/e1.png">
+                </div>
+                <div class="shadow">
+                    <div class="images">
+                     <span class="image-1"><i class="fa fa-star" aria-hidden="true"></i></span>
+                     <span class="image-2"><img src="../images/Path 1.png"></span>
+                    </div>
+                    </div>
+                    <div class="inter">
                     <h5>
                         9
                     </h5>
                     <h6>
                        interset 
                     </h6>
+                    </div>
                 </div>
+            </div>
+            
+            <div class="clearfix" id="clear"></div>
+            
+             <div class="interset">
+                <div class="events">
+                    <img class="image-event"src="../images/e1.png">
                 </div>
+                <div class="shadow">
+                    <div class="images">
+                        <span class="image-3"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                        <span class="image-2"><img src="../images/Path 1.png"></span>
+                    </div>
+                    </div>
+                    <div class="inter">
+                    <h5>
+                        9
+                    </h5>
+                    <h6>
+                       interset 
+                    </h6>
+                    </div>
                 </div>
-             </center>
+            </div>
+              
                           
             <!--end events-->
             
@@ -165,7 +194,7 @@ $(".toggle").click(function () {
                         <li><a href="#" class="link2">About Us</a></li>
                       </ul>
                        <div class="social">
-                            <a class="social1"><i class="fa fa-facebook-official	"style="color:#000"></i></a>
+                            <a class="social1"><i class="fa fa-facebook-official"style="color:#000"></i></a>
                             <a class="social2"><i class="fa fa-twitter"style="color:#000"></i></a>
                             <p>All copy Rights Reserved to Student Service Zone 2019</p>
 
