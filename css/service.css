@@ -167,7 +167,7 @@ margin-top: 10px;
   display: block;
   height: 35px;
   text-decoration: none;
-
+transition: all 1s ease;
 }
 
 .nav > li > a:hover{
@@ -447,6 +447,12 @@ ul > li > a:hover:after {
   position: absolute;
   
 }
+.cotainer .row .items .background1{
+ width: 1300px;
+ height: 315px;
+ position: relative;
+ 
+}
 
 .cotainer .row .image h3{
  position: absolute;
@@ -676,5 +682,6 @@ position: absolute;
   margin-left:500px;
   font-size: 18px;
  position: absolute;
+}
 }
 /** start social**/ 

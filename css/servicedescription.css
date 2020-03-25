@@ -169,7 +169,7 @@ margin-top: 10px;
   display: block;
   height: 35px;
   text-decoration: none;
-
+transition: all 1s ease;
 }
 
 .nav > li > a:hover{
