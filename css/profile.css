@@ -435,67 +435,56 @@ ul > li > a:hover:after {
 
 
 /**start item**
+/**start item**/
 .item{
-   background-size:cover;
    position: absolute;
    width: 97%;
    height: 500px;
-   background-image: url('../images/personal.png');
-   background-repeat: no-repeat;
-   background-size: cover;
    margin-top: 0px;
-   margin: 20px 0 0px 20px;
   
+   margin: 20px 0 0px 20px;
    
    
 }
 .item .imge{
-  background-image: linear-gradient(to right, rgba(0, 45,61, 0.55), rgba(0, 45, 61 ,0.55));
        width:100%;
-      height:100%;
-      background-size:cover;
+      height:500px;
       position: absolute;
       margin-top: 0px;
       
 }
-
-.item .imge p{
-    color: #fff;
-    font-size: 50px;
-    margin: 400px 0 0 30px;
-}
-**/
-/**start item**/
-.item{
+#profile{
+ width: 100%;
+ height: 100%;
  position: absolute;
- width: 97%;
- height: 500px;
- margin-top: 0px;
-
- margin: 20px 0 0px 20px;
- 
- 
+ margin: 0px 0 0 0;
+ border-radius: 10px;
 }
-.item .imge{
-     width:100%;
-    height:500px;
-    position: absolute;
-    margin-top: 0px;
-    
+#linecolor{
+ width: 100%;
+ height: 300px;
+ position: relative;
+ margin: 200px 0 0 0;
+ border-radius: 10px;"
 }
 .item .ponts{
-position: absolute;
+ position: absolute;
+}
+#point{
+ width:10px;
+ margin: 30px 0px 0 0;
+ padding-left: 60px;
 }
 .item .ponts .point {
-float: right;
-padding-top: 0px;
-position: absolute;
-margin-top:0px;
-margin-left: 1225px;
-cursor: pointer;
-background: none;
-border: none;
-
+  float: right;
+  padding-top: 0px;
+  position: absolute;
+  margin-top:0px;
+  margin-left: 1225px;
+  cursor: pointer;
+  background: none;
+  border: none;
+ 
 }
 
 .item .ponts .point >ul>li{
@@ -504,25 +493,25 @@ margin: -25px 1000px 0 0 ;
 }
 
 .item .ponts .point >ul>li>span {
-display: block;
-border-radius: 50%;
-height: 7px;
-width: 7px;
-background: #fff;
-/**haver backgrounf**/ margin-left:1170px;
-margin-bottom: 3px;
-
-
+  display: block;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background: #fff;
+  /**haver backgrounf**/ margin-left:1170px;
+  margin-bottom: 3px;
+  
+  
 }
 .item .words{
-position: absolute;
-margin: 450px 0 0 20px;
-width: 300px;
+ position: absolute;
+ margin: 450px 0 0 20px;
+ width: 300px;
 }
 .item .words h5{
-  color: #fff;
-  font-size: 23px;
-  
+    color: #fff;
+    font-size: 23px;
+    
 }
 
 .Details{
@@ -562,7 +551,13 @@ width: 300px;
     color: #5B5959;
     
 }
-
+#line{
+ width: 400px;
+ height: 3px;
+ background:#5B5959;
+ position: absolute;
+ margin: 730px 0 0 500px;
+}
 .location{
         position: absolute;
     margin: 770px 0 0 20px ;
@@ -598,71 +593,74 @@ margin-left: 50px;
 /**start items**/
 .cotainer{
 width: 100%;
-margin-left: -15px;
+margin-left: -20px;
 }
-.cotainer .row .items1{
-position:absolute;
-left: 280px;
-top: 1030px;
-transform: translate(-50%,-50%);
-width: 200px;
-height: 230px;
-background: #fff;
-box-shadow: 0 5px 15px rgpa(0,0,0,.25);
-border-radius: 5px;
-overflow: hidden;
+/**start items**/
+ .cotainer .row .items1{
+	position:absolute;
+	left: 200px;
+	top: 1070px;
+	transform: translate(-50%,-50%);
+	width: 210px;
+	height: 280px;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.25);
+	border-radius: 5px;
+	overflow: hidden;
+}
+#marg-top{
+ margin-top: 350px;
 }
 .items1 .imgbox{
-height: 100%;
-box-sizing: border-box;
+	height: 100%;
+	box-sizing: border-box;
 }
-.items1 .imgbox img{
-display: block;
-width: 90%;
-margin: 20px auto 0;
+#marg-left-1{
+ margin-left: 80px;
+}
+#marg-left-2{
+ margin-left: 60px;
+}
+#marg-left-3{
+ margin-left: 60px;
+}
+#marg-left-4{
+ margin-left: 60px;
+}
+ .items1 .imgbox img{
+	display: block;
+	width: 90%;
+	margin: 20px auto 0;
+ height: 200px;
 }
 .dateils{
-position: absolute;
-width: 100%;
-bottom: -70px;
-background: #fff;
-padding: 10px;
-box-sizing: border-box;
-box-shadow: 0 0 0 rgpa(0,0,0,0);
-transition: .5s;
-  border: #eee solid 2px;
+	position: absolute;
+	width: 100%;
+	bottom: 60px;
+	background: #fff;
+	padding:  0 10px 10px 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 0 rgba(0,0,0,0); 
+ height: 40px;
+ margin-top: -60px;
 }
-.items1:hover .dateils{
-bottom: 0;
-box-shadow: 0 -5px 15px rgba(0,0,0,.25);
+#name{
+ margin-top: 8px;
+ margin-left: 11px;
+font-size: 17px;
+height: 67px;
+overflow: hidden;
 }
-.dateils1 h4{
-margin: 0 0 0 0;
-  top: 0px;
-padding: 0;
-font-size: 6px;
-width: 100%;
-position: relative;
-}
-.dateils h4 span a{
-font-size: 15px;
-color:  #5c5c3d;
-font-weight: normal;
-text-decoration: none
-}
+
 .dateils .price{
-position: absolute;
-top: 0;
-right: 0;
-font-weight: bold;
-color: #ff0000;
-font-size: 20px;
+	position: absolute;
+	top: 73px;
+ margin-left: 11px;
+	font-weight: bold;
+	color: #ff0000;
+	font-size: 17px;
 }
-/*end items*/
-
-
-
-/**end item**/
+/**end items**/
 
 
 
@@ -672,7 +670,7 @@ font-size: 20px;
  height: 100%;
  background-size:cover;
  position: absolute;
- margin-top: 1220px;
+ margin-top: 1350px;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }

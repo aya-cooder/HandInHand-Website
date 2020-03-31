@@ -82,11 +82,11 @@ $(".toggle").click(function () {
             <!--start item-->
          <div class="item">               
             <div class="imge">
-                <img src="../images/Rectangle3.png"style="width: 100%;height: 100%;position: absolute;margin: 0px 0 0 0;" >
-                <img src="../images/Rectangle2.png"style="width: 100%; height: 300px;position: relative;margin: 200px 0 0 0;border-radius: 10px;" >
+                <img src="../images/Rectangle3.png"id="profile">
+                <img src="../images/Rectangle2.png"id="linecolor">
             </div>
             <div class="ponts">
-              <button class="point"style="width:10px;margin: 30px 0px 0 0;padding-left: 60px;">
+              <button id="point" class="point">
                                           <ul>
                                              <li><span></span>
                                                  <span></span>
@@ -113,7 +113,7 @@ $(".toggle").click(function () {
         <p><i class="fa fa-map-marker" aria-hidden="true"style="padding-left: 5px;"></i> minyat El-Qamh Asharquira </p>
         <p><i class="fa fa-envelope-o" aria-hidden="true"style="padding-left: 5px;"></i> User@example.com</p>
     </div>
-    <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 730px 0 0 500px;">
+    <span id="line">
         
     </span>
          <div class="location">
@@ -121,21 +121,28 @@ $(".toggle").click(function () {
         <div class="links">
            <button>Items</button>
            <button>Service</button>
-           <button>Handmade</button>
-           <button>Events</button>
+           <button id="handmade">Handmade</button>
+           <button id="event">Events</button>
         </div>
         
         </div>
-<div class="cotainer" >
+
+
+           
+           
+           
+           
+         <!--start items-->
+            <div class="cotainer" >
             <div class="row" >
-              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" >
+              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"id="marg-left-1"  >
                <div class="items1">
                 <div class="imgbox">
-                 <img src="../images/booktitle.jpeg">
+                 <img src="../images/booktitle.jpeg"title="Engineeringtools">
                 </div>
                 <div class="dateils">
-               <h4 style="margin-top: -6px;">Book Title<span><br><a href="Rockport.html">Rockport Sharp & Ready Chukka Boot</a></span></h4>
-            <div class="price">Free</div>
+               <h4  id ="name">Book Titlkb;o huh gk kjfyuy kufy kufy</h4>
+            <div class="price">99999.99</div>
              </div>
                </div>
               </div>
@@ -144,13 +151,13 @@ $(".toggle").click(function () {
            
            
            
-              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"style="margin-left: 60px;" >
+              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" id="marg-left-2" >
                <div class="items1">
                 <div class="imgbox">
                  <img src="../images/Engineeringtools.jpeg">
                 </div>
                 <div class="dateils">
-               <h4 style="margin-top: -6px;">Book Title<span><br><a href="Rockport.html">Rockport Sharp & Ready Chukka Boot</a></span></h4>
+                    <h4 id ="name">Book Title</h4>
             <div class="price">Free</div>
              </div>
                </div>
@@ -160,13 +167,13 @@ $(".toggle").click(function () {
                       
                       
         
-              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"style="margin-left: 50px;"  >
+              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" id="marg-left-3"  >
                <div class="items1">
                 <div class="imgbox">
                  <img src="../images/Medicaltools.jpeg">
                 </div>
                 <div class="dateils">
-               <h4 style="margin-top: -6px;">Book Title<span><br><a href="Rockport.html">Rockport Sharp & Ready Chukka Boot</a></span></h4>
+                    <h4 id ="name">Book Title</h4>
             <div class="price">Free</div>
              </div>
                </div>
@@ -174,13 +181,13 @@ $(".toggle").click(function () {
        
        
        
-              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12"style="margin-left: 60px;"  >
+              <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" id="marg-left-4" >
                <div class="items1">
                 <div class="imgbox">
                  <img src="../images/tools.jpeg">
                 </div>
                 <div class="dateils">
-               <h4 style="margin-top: -6px;">Book Title<span><br><a href="Rockport.html">Rockport Sharp & Ready Chukka Boot</a></span></h4>
+               <h4 id ="name">Book Title</h4>
             <div class="price">Free</div>
              </div>
                </div>
@@ -217,8 +224,8 @@ $(".toggle").click(function () {
                     <li><a href="#" class="link2">About Us</a></li>
                   </ul>
                    <div class="social">
-                        <a class="social1"><i class="fa fa-facebook-official	"style="color:#000"></i></a>
-                        <a class="social2"><i class="fa fa-twitter"style="color:#000"></i></a>
+                        <a class="social1"><i class="fa fa-facebook-official"></i></a>
+                        <a class="social2"><i class="fa fa-twitter"></i></a>
                         <p>All copy Rights Reserved to Student Service Zone 2019</p>
 
                    </div>
