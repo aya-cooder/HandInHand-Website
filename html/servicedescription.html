@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/servicedescription.css">
+        <link rel="stylesheet" href="../css/servicedesresponsive.css" >
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/navbar-responsive.css">
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.js">
         <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -34,17 +37,12 @@ $(".toggle").click(function () {
         <div class="navbar elem-center">
             <div class="container">
                <div class="parent left-right">
-                    <div class="navbar-header">
-                      <div class="toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </div>
+                    <div class="navbar-header">   
                       <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
                     </div>
-                      <ul class="nav navlist" id="links" style="margin-left:450px;margin-top: 10px;position: absolute;">
-                        <li class="active" >
-                           <a href="items.html" data-value="about" class="effect">Items</a></li>
+                      <ul class="nav navlist" id="links">
+                        <li class="active">
+                         <a href="items.html" data-value="about" class="effect">Items</a></li>
                         <li><a href="service.html" data-value="port"class="effect">Services</a></li>
                         <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
                         <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
@@ -53,7 +51,7 @@ $(".toggle").click(function () {
                        <input type="text" placeholder="Search">
                        <i class="fa fa-search"></i>
                        </form>
-                                       <div class="menu">
+                       <div class="menu">
                          <button class="toggl">
                                           <ul>
                                              <li><span></span>
@@ -61,9 +59,12 @@ $(".toggle").click(function () {
                                                  <span></span>
                                                 <ul >
                                                 <li >
-                                                        
-                                                         <a href="login.html">login</a>
-                                                        <a href="Resister.html">Resister</a>
+                                                        <a href="items.html" data-value="about" id="link-nav" class="effect">Items</a>
+                                                        <a href="service.html" data-value="port" id="link-nav"class="effect">Services</a>
+                                                        <a href="events.html" data-value="foll" id="link-nav"class="effect">Events</a>
+                                                        <a href="handemade.html" data-value="cont" id="link-nav"class="effect">Handmade</a>
+                                                        <a href="login.html">login</a>
+                                                        <a href="Resister.html">Register</a>
                                                         <a href="youracount.html">youracount</a>
                                                 </li>
                                                 </ul>
@@ -91,14 +92,14 @@ $(".toggle").click(function () {
           <h6> Interests</h6>
           <p><span>4</span> people are interest in the service.</p> 
         </div>
-         <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 50px 0 0 500px;">
+         <span id="line-1">
             
            </span>
         <div class="Goal">
           <h5> Goal to start</h5>
           <p>the service will to start when interest become <span>20</span>.</p> 
         </div>
-         <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 50px 0 0 500px;">
+         <span id="line-2">
             
            </span>
         <div class="description">
@@ -108,7 +109,7 @@ $(".toggle").click(function () {
             code!</p>
         </div>
          
-           <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 270px 0 0 500px;">
+           <span id="line-3">
             
            </span>
            
@@ -117,7 +118,7 @@ $(".toggle").click(function () {
             <p>Free</p>
            </div>
            
-             <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 450px 0 0 500px;">
+             <span id="line-4">
             
            </span>
              
@@ -154,8 +155,8 @@ $(".toggle").click(function () {
                         <li><a href="#" class="link2">About Us</a></li>
                       </ul>
                        <div class="social">
-                            <a class="social1"><i class="fa fa-facebook-official	"style="color:#000"></i></a>
-                            <a class="social2"><i class="fa fa-twitter"style="color:#000"></i></a>
+                            <a class="social1"><i class="fa fa-facebook-official"></i></a>
+                            <a class="social2"><i class="fa fa-twitter"></i></a>
                             <p>All copy Rights Reserved to Student Service Zone 2019</p>
 
                        </div>
