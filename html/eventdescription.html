@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/eventdescription.css">
+        <link rel="stylesheet" href="../css/eventdesresponsive.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/navbar-responsive.css">
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.js">
         <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -34,45 +37,43 @@ $(".toggle").click(function () {
      <div class="navbar elem-center">
         <div class="container">
            <div class="parent left-right">
-                <div class="navbar-header">
-                  <div class="toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
+                <div class="navbar-header">   
+                      <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
+                    </div>
+                      <ul class="nav navlist" id="links">
+                        <li class="active">
+                         <a href="items.html" data-value="about" class="effect">Items</a></li>
+                        <li><a href="service.html" data-value="port"class="effect">Services</a></li>
+                        <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
+                        <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
+                      </ul>
+                        <form class="navbar-form navbar-right">
+                       <input type="text" placeholder="Search">
+                       <i class="fa fa-search"></i>
+                       </form>
+                       <div class="menu">
+                         <button class="toggl">
+                                          <ul>
+                                             <li><span></span>
+                                                 <span></span>
+                                                 <span></span>
+                                                <ul >
+                                                <li >
+                                                        <a href="items.html" data-value="about" id="link-nav" class="effect">Items</a>
+                                                        <a href="service.html" data-value="port" id="link-nav"class="effect">Services</a>
+                                                        <a href="events.html" data-value="foll" id="link-nav"class="effect">Events</a>
+                                                        <a href="handemade.html" data-value="cont" id="link-nav"class="effect">Handmade</a>
+                                                        <a href="login.html">login</a>
+                                                        <a href="Resister.html">Register</a>
+                                                        <a href="youracount.html">youracount</a>
+                                                </li>
+                                                </ul>
+                                              </li>
+                                          </ul>
+                                
+                         </button>
+                       </div>
                 </div>
-                <ul class="nav navlist" id="links" style="margin-left:450px;margin-top: 10px;position: absolute;">
-                  <li class="active" >
-                   <a href="items.html" data-value="about" class="effect">Items</a></li>
-                  <li><a href="service.html" data-value="port"class="effect">Services</a></li>
-                  <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
-                  <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
-                </ul>
-                    <form class="navbar-form navbar-right">
-                   <input type="text" placeholder="Search">
-                   <i class="fa fa-search"></i>
-                   </form>
-                                   <div class="menu">
-                     <button class="toggl">
-                                      <ul>
-                                         <li><span></span>
-                                             <span></span>
-                                             <span></span>
-                                            <ul >
-                                            <li >
-                                                    
-                                              <a href="login.html">login</a>
-                                              <a href="Resister.html">Resister</a>
-                                              <a href="youracount.html">youracount</a>
-                                            </li>
-                                            </ul>
-                                          </li>
-                                      </ul>
-                            
-                     </button>
-                   </div>
-            </div>
             <div class="clearfix"></div>
         </div>
         
@@ -86,12 +87,11 @@ $(".toggle").click(function () {
          <!--start item-->
          <div class="item">               
             <div class="imge">
-                <img src="../images/e1.png"style="width: 100%;height: 100%;position: absolute;margin: 0px 0 0 0;" >
-                <img src="../images/Rectangle2.png"style="width: 100%; height: 300px;position: relative;margin: 200px 0 0 0;border-radius: 10px;" >
+                <img src="../images/e1.png" id="event" >
+                <img src="../images/Rectangle2.png" id="rectangle">
             </div>
             <div class="ponts">
-                <i class="fa fa-arrow-left" style="margin:20px 0 0 30px ;position: absolute;"></i>
-                <button class="point"style="width:10px;margin: 30px 0px 0 0;padding-left: 60px;">
+                <button class="point" id="points">
                                           <ul>
                                              <li><span></span>
                                                  <span></span>
@@ -102,7 +102,7 @@ $(".toggle").click(function () {
             </div>
              <div class="words">                       
             <h5>IEEE event in Zagazig</h5>
-            <i class="fa fa-star-o" style="margin:-50px 0 0 1220px ;position: absolute;color: #fff;font-size: 45px;"></i>
+            <i class="fa fa-star-o"id="star"></i>
             </div>
          </div>
   
@@ -113,7 +113,7 @@ $(".toggle").click(function () {
           <p>IEEE organization is bla bla ....etc</p>
       </div>
        
-         <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 650px 0 0 450px;">
+         <span id="line-1">
           
          </span>
         
@@ -124,21 +124,21 @@ $(".toggle").click(function () {
         code!</p>
     </div>
      
-    <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 830px 0 0 500px;">
+    <span id="line-2">
         
        </span>
        
          <div class="location">
         <h1>Location</h1>
-        <p> <i class="fa fa-map-marker" aria-hidden="true"style="padding-right: 5px;"></i> Hall 6, Faculty Of Agriculture ,Zagazig university</p>
+        <p> <i class="fa fa-map-marker" id="map"aria-hidden="true"></i> Hall 6, Faculty Of Agriculture ,Zagazig university</p>
        </div>
-       <span style="width: 400px;height: 3px; background:#5B5959;position: absolute;margin: 990px 0 0 500px;">
+       <span id="line-3">
         
       </span>
       <div class="Time">
         <h1>Time</h1>
-        <p><i class="fa fa-calendar" aria-hidden="true"style="padding-right: 5px;"></i> From 13/10/2019 to 24/10/2019</p>
-        <p><i class="fa fa-clock-o" aria-hidden="true"style="padding-right: 5px;"></i> From 3 Pm To 6 Pm</p>
+        <p><i class="fa fa-calendar" id="calender"aria-hidden="true"></i> From 13/10/2019 to 24/10/2019</p>
+        <p><i class="fa fa-clock-o" id="clock"aria-hidden="true"></i> From 3 Pm To 6 Pm</p>
        </div>
 
     <!--end item-->
@@ -159,8 +159,8 @@ $(".toggle").click(function () {
                     <li><a href="#" class="link2">About Us</a></li>
                   </ul>
                    <div class="social">
-                        <a class="social1"><i class="fa fa-facebook-official	"style="color:#000"></i></a>
-                        <a class="social2"><i class="fa fa-twitter"style="color:#000"></i></a>
+                        <a class="social1"><i class="fa fa-facebook-official"></i></a>
+                        <a class="social2"><i class="fa fa-twitter"></i></a>
                         <p>All copy Rights Reserved to Student Service Zone 2019</p>
 
                    </div>
