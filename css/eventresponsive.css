@@ -1,6 +1,6 @@
 /** mobile & tablet**/
 @media(max-width:767px){
-   /* Start Navbar*/
+  /* Start Navbar*/
 body{
 height: 900px;
 }
@@ -43,13 +43,13 @@ font-weight: bold;
 font-size: 40px;
 margin: 30px 0 0 180px;
 }
-  @font-face {
-      font-family: "paraaminobenzoic";
-      src: url("paraaminobenzoic.otf");
-  }
-  h3.custom_font {
-      font-family: "paraaminobenzoic";
-  }
+ @font-face {
+     font-family: "paraaminobenzoic";
+     src: url("paraaminobenzoic.otf");
+ }
+ h3.custom_font {
+     font-family: "paraaminobenzoic";
+ }
 
 .cotainer .row .paragrph{
 position: absolute;
@@ -89,18 +89,18 @@ fill-opacity:0.91;
 
 
 .filter{
-  margin-top: 250px;
-  position: relative;
-  text-align: center;
+ margin-top: 250px;
+ position: relative;
+ text-align: center;
 }
 .filter button{
-  background-color: #ff0000;
-  border: none;
-  padding: 10px;
-  color: #fff;
-  font-size: 17px;
-  border-radius: 4px;
-  letter-spacing: 1.5px;
+ background-color: #ff0000;
+ border: none;
+ padding: 10px;
+ color: #fff;
+ font-size: 17px;
+ border-radius: 4px;
+ letter-spacing: 1.5px;
 }
 .filter button i{
 padding: 5px;
@@ -124,7 +124,7 @@ width: 88%;
 height: 180px;
 }
 .image-shadow{
- width:95%;
+width:95%;
 height: 30.3%;
 background-size:cover;
 position: absolute;
@@ -262,7 +262,7 @@ margin-left:60px;
 font-size: 15px;
 position: absolute;
 }
-  
+ 
 }
 
 
@@ -297,13 +297,13 @@ font-weight: bold;
 font-size: 40px;
 margin: 30px 0 0 320px;
 }
-  @font-face {
-      font-family: "paraaminobenzoic";
-      src: url("paraaminobenzoic.otf");
-  }
-  h3.custom_font {
-      font-family: "paraaminobenzoic";
-  }
+ @font-face {
+     font-family: "paraaminobenzoic";
+     src: url("paraaminobenzoic.otf");
+ }
+ h3.custom_font {
+     font-family: "paraaminobenzoic";
+ }
 
 .cotainer .row .paragrph{
 position: absolute;
@@ -343,18 +343,18 @@ fill-opacity:0.91;
 
 
 .filter{
-  margin-top: 280px;
-  position: relative;
-  text-align: center;
+ margin-top: 280px;
+ position: relative;
+ text-align: center;
 }
 .filter button{
-  background-color: #ff0000;
-  border: none;
-  padding: 10px;
-  color: #fff;
-  font-size: 17px;
-  border-radius: 4px;
-  letter-spacing: 1.5px;
+ background-color: #ff0000;
+ border: none;
+ padding: 10px;
+ color: #fff;
+ font-size: 17px;
+ border-radius: 4px;
+ letter-spacing: 1.5px;
 }
 .filter button i{
 padding: 5px;
@@ -378,7 +378,7 @@ width: 88%;
 height: 200px;
 }
 .image-shadow{
- width:67%;
+width:67%;
 height: 30.6%;
 background-size:cover;
 position: absolute;
@@ -553,13 +553,13 @@ font-weight: bold;
 font-size: 40px;
 margin: 30px 0 0 450px;
 }
-  @font-face {
-      font-family: "paraaminobenzoic";
-      src: url("paraaminobenzoic.otf");
-  }
-  h3.custom_font {
-      font-family: "paraaminobenzoic";
-  }
+ @font-face {
+     font-family: "paraaminobenzoic";
+     src: url("paraaminobenzoic.otf");
+ }
+ h3.custom_font {
+     font-family: "paraaminobenzoic";
+ }
 
 .cotainer .row .paragrph{
 position: absolute;
@@ -599,18 +599,18 @@ fill-opacity:0.91;
 
 
 .filter{
-  margin-top: 280px;
-  position: relative;
-  text-align: center;
+ margin-top: 280px;
+ position: relative;
+ text-align: center;
 }
 .filter button{
-  background-color: #ff0000;
-  border: none;
-  padding: 10px;
-  color: #fff;
-  font-size: 17px;
-  border-radius: 4px;
-  letter-spacing: 1.5px;
+ background-color: #ff0000;
+ border: none;
+ padding: 10px;
+ color: #fff;
+ font-size: 17px;
+ border-radius: 4px;
+ letter-spacing: 1.5px;
 }
 .filter button i{
 padding: 5px;
@@ -634,7 +634,7 @@ width: 88%;
 height: 200px;
 }
 .image-shadow{
- width:98%;
+width:98%;
 height: 30.6%;
 background-size:cover;
 position: absolute;
@@ -779,7 +779,7 @@ position: absolute;
 
 
 @media(min-width:1201px) and (max-width:1322px){
-  
+ 
 #event {
 margin-top: 20px;
 margin-left: 30px;
@@ -808,13 +808,13 @@ font-weight: bold;
 font-size: 40px;
 margin: 30px 0 0 570px;
 }
-  @font-face {
-      font-family: "paraaminobenzoic";
-      src: url("paraaminobenzoic.otf");
-  }
-  h3.custom_font {
-      font-family: "paraaminobenzoic";
-  }
+ @font-face {
+     font-family: "paraaminobenzoic";
+     src: url("paraaminobenzoic.otf");
+ }
+ h3.custom_font {
+     font-family: "paraaminobenzoic";
+ }
 
 .cotainer .row .paragrph{
 position: absolute;
@@ -854,26 +854,26 @@ fill-opacity:0.91;
 
 
 .filter{
-  margin-top: 370px;
-  position: relative;
-  text-align: center;
+ margin-top: 370px;
+ position: relative;
+ text-align: center;
 }
 .filter button{
-  background-color: #ff0000;
-  border: none;
-  padding: 10px;
-  color: #fff;
-  font-size: 17px;
-  border-radius: 4px;
-  letter-spacing: 1.5px;
+ background-color: #ff0000;
+ border: none;
+ padding: 10px;
+ color: #fff;
+ font-size: 17px;
+ border-radius: 4px;
+ letter-spacing: 1.5px;
 }
 .filter button i{
 padding: 5px;
 } 
-  
-  
-
  
+ 
+
+
 
 .events{
 
@@ -889,7 +889,7 @@ width: 88%;
 height: 200px;
 }
 .image-shadow{
- width:100%;
+width:100%;
 height: 30.6%;
 background-size:cover;
 position: absolute;
@@ -952,9 +952,9 @@ height: 260px;
 
 
 
-  
-  
-  .end{
+ 
+ 
+ .end{
 width:1210px;
 max-width:1300px;
 height: 93%;
@@ -1044,7 +1044,7 @@ position: absolute;
 
 
 @media(min-width:1323px) and (max-width:1360px){
-  
+ 
 #event {
 margin-top: 20px;
 margin-left: 30px;
@@ -1073,13 +1073,13 @@ font-weight: bold;
 font-size: 40px;
 margin: 30px 0 0 570px;
 }
-  @font-face {
-      font-family: "paraaminobenzoic";
-      src: url("paraaminobenzoic.otf");
-  }
-  h3.custom_font {
-      font-family: "paraaminobenzoic";
-  }
+ @font-face {
+     font-family: "paraaminobenzoic";
+     src: url("paraaminobenzoic.otf");
+ }
+ h3.custom_font {
+     font-family: "paraaminobenzoic";
+ }
 
 .cotainer .row .paragrph{
 position: absolute;
@@ -1119,26 +1119,26 @@ fill-opacity:0.91;
 
 
 .filter{
-  margin-top: 370px;
-  position: relative;
-  text-align: center;
+ margin-top: 370px;
+ position: relative;
+ text-align: center;
 }
 .filter button{
-  background-color: #ff0000;
-  border: none;
-  padding: 10px;
-  color: #fff;
-  font-size: 17px;
-  border-radius: 4px;
-  letter-spacing: 1.5px;
+ background-color: #ff0000;
+ border: none;
+ padding: 10px;
+ color: #fff;
+ font-size: 17px;
+ border-radius: 4px;
+ letter-spacing: 1.5px;
 }
 .filter button i{
 padding: 5px;
 } 
-  
-  
-
  
+ 
+
+
 
 .events{
 
@@ -1154,7 +1154,7 @@ width: 88%;
 height: 200px;
 }
 .image-shadow{
- width:100%;
+width:100%;
 height: 29.8%;
 background-size:cover;
 position: absolute;
@@ -1217,9 +1217,9 @@ height: 260px;
 
 
 
-  
-  
-  .end{
+ 
+ 
+ .end{
 width:1210px;
 max-width:1300px;
 height: 93%;
