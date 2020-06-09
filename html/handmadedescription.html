@@ -35,132 +35,151 @@ $(".toggle").click(function () {
     <body>    
         <!-- Start Navbar -->
         <div class="navbar elem-center">
-            <div class="container">
-               <div class="parent left-right">
-                    <div class="navbar-header">   
-                      <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
-                    </div>
-                      <ul class="nav navlist" id="links">
-                        <li class="active">
-                         <a href="items.html" data-value="about" class="effect">Items</a></li>
-                        <li><a href="service.html" data-value="port"class="effect">Services</a></li>
-                        <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
-                        <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
-                      </ul>
-                        <form class="navbar-form navbar-right">
-                       <input type="text" placeholder="Search">
-                       <i class="fa fa-search"></i>
-                       </form>
-                       <div class="menu">
-                         <button class="toggl">
-                                          <ul>
-                                             <li><span></span>
-                                                 <span></span>
-                                                 <span></span>
-                                                <ul >
-                                                <li >
-                                                        <a href="items.html" data-value="about" id="link-nav" class="effect">Items</a>
-                                                        <a href="service.html" data-value="port" id="link-nav"class="effect">Services</a>
-                                                        <a href="events.html" data-value="foll" id="link-nav"class="effect">Events</a>
-                                                        <a href="handemade.html" data-value="cont" id="link-nav"class="effect">Handmade</a>
-                                                        <a href="login.html">login</a>
-                                                        <a href="Resister.html">Register</a>
-                                                        <a href="youracount.html">youracount</a>
-                                                </li>
-                                                </ul>
+          <div class="container">
+             <div class="parent left-right">
+                  <div class="navbar-header">   
+                    <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
+                                              <i id="bell"class="fa fa-bell" aria-hidden="true"></i>
+                                              <div class="language">
+                                                     <td>
+                              <select>
+                                  <option>language</option>
+                                  
+                                  <option>عربي</option>
+                                  <option>English</option>
+                              </select>
+                          </td>
+                      </tr>
+                                              </div>
+                                      
+                  </div>
+                    <ul class="nav navlist" id="links">
+                      <li class="active">
+                       <a href="items.html" data-value="about" class="effect">Items</a></li>
+                      <li><a href="service.html" data-value="port"class="effect">Services</a></li>
+                      <li><a href="events.html" data-value="foll"class="effect">Events</a></li>
+                      <li><a href="handemade.html" data-value="cont"class="effect">Handmade</a></li>
+                    </ul>
+                      <form class="navbar-form navbar-right">
+                     <input type="text" placeholder="Search">
+                     <i class="fa fa-search"></i>
+                     </form>
+                     <div class="menu">
+                       <button class="toggl">
+                                        <ul>
+                                           <li><span></span>
+                                               <span></span>
+                                               <span></span>
+                                              <ul >
+                                              <li >
+                                                      <a href="items.html" data-value="about" id="link-nav" class="effect">Items</a>
+                                                      <hr id="link-nav">
+                                                      <a href="service.html" data-value="port" id="link-nav"class="effect">Services</a>
+                                                      <hr id="link-nav">
+                                                      <a href="events.html" data-value="foll" id="link-nav"class="effect">Events</a>
+                                                      <hr id="link-nav">
+                                                      <a href="handemade.html" data-value="cont" id="link-nav"class="effect">Handmade</a>
+                                                      <hr id="link-nav">
+                                                      <a href="login.html">login</a>
+                                                      <hr>
+                                                      <a href="Resister.html">Register</a>
+                                                      <hr>
+                                                      <a href="youracount.html">youracount</a>
                                               </li>
-                                          </ul>
-                                
-                         </button>
-                       </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            
-        </div>
-        <!--end nevbar-->
-        
-        
-        
-        
-        <!--start item-->
-         <div class="item">               
-            <div class="imge">
-                <img src="../images/6.png"id="handmade">
-                <img src="../images/Rectangle2.png"id="rectangle">
-            </div>
-            <div class="ponts">
-                <button class="point" id="points">
-                                          <ul>
-                                             <li><span></span>
-                                                 <span></span>
-                                                 <span></span>
-                                             </li> 
-                                          </ul>
-                                    </button>
-            </div>
-             <div class="words">                       
-            <h5>Item Title</h5>
-            </div>
-         </div>
-            
-            
-            <br>
-        <div class="description">
-            <h1>Description</h1>
-            <p>Images add much-needed context and visual flair to Android application.</p>
-            <p>Picasso allows for hassie-free image in your application-often in one line of
-            code!</p>
-        </div>
+                                              </ul>
+                                            </li>
+                                        </ul>
+                              
+                       </button>
+                     </div>
+              </div>
+              <div class="clearfix"></div>
+          </div>
+          
+      </div>
+      <!--end nevbar-->
+      
+      
+      
+      
+      <!--start item-->
+       <div class="item">               
+          <div class="imge">
+              <img src="../images/6.png"id="handmade">
+              <img src="../images/Rectangle2.png"id="rectangle">
+          </div>
+          <div class="ponts">
+              <button class="point" id="points">
+                                        <ul>
+                                           <li><span></span>
+                                               <span></span>
+                                               <span></span>
+                                           </li> 
+                                        </ul>
+                                  </button>
+          </div>
+           <div class="words">                       
+          <h5>Item Title</h5>
+          </div>
+       </div>
+          
+          
+          <br>
+      <div class="description">
+          <h1>Description</h1>
+          <p>Images add much-needed context and visual flair to Android application.</p>
+          <p>Picasso allows for hassie-free image in your application-often in one line of
+          code!</p>
+      </div>
+       
+         <span id="line-1">
+          
+         </span>
          
-           <span id="line-1">
-            
-           </span>
+         <div class="price">
+          <h2>Price</h2>
+          <p>Free</p>
+         </div>
+         
+           <span id="line-2">
+          
+         </span>
            
-           <div class="price">
-            <h2>Price</h2>
-            <p>Free</p>
+           <div class="contacts">
+          <h3>contacts</h3>
+          <p><i class="fa fa-phone" id="phone"></i>01012548387</p>
+          <p><i class="fa fa-facebook-square" id="facebook"aria-hidden="true"></i>facebook.com/mohamed126</p>
+         </div>
+              
+              
+         <div class="butt">
+           <button>Booking Request</button>
+         </div>
+      <!--end item-->
+      
+      
+      
+      
+                 <!--start endwebsite-->
+         <div class="end">
+           <div class="imag">
+              <span class="image1"><img src="../images/f.png"></span>
+              <span class="image2"><img src="../images/f2.png"></span>
+              <span class="image3"><img src="../images/f2.png"></span>
            </div>
-           
-             <span id="line-2">
-            
-           </span>
-             
-             <div class="contacts">
-            <h3>contacts</h3>
-            <p><i class="fa fa-phone" id="phone"></i>01012548387</p>
-            <p><i class="fa fa-facebook-square" id="facebook"aria-hidden="true"></i>facebook.com/mohamed126</p>
-           </div>
-                
-                
-           <div class="butt">
-             <button>Booking Request</button>
-           </div>
-        <!--end item-->
-        
-        
-        
-        
-                   <!--start endwebsite-->
-           <div class="end">
-             <div class="imag">
-                <span class="image1"><img src="../images/f.png"></span>
-                <span class="image2"><img src="../images/f2.png"></span>
-                <span class="image3"><img src="../images/f2.png"></span>
-             </div>
-             <div class="link">
-                        <ul>
-                        <li><a href="#" class="link1">Contact us</a></li>
-                        <li><a href="#" class="link2">About Us</a></li>
-                      </ul>
-                       <div class="social">
-                            <a class="social1"><i class="fa fa-facebook-official"></i></a>
-                            <a class="social2"><i class="fa fa-twitter"></i></a>
-                            <p>All copy Rights Reserved to Student Service Zone 2019</p>
+           <div class="link">
+                      <ul>
+                      <li><a href="#" class="link1">Contact us</a></li>
+                      <li><a href="#" class="link2">About Us</a></li>
+                    </ul>
+                     <div class="social">
+                          <a class="social1"><i class="fa fa-facebook-official"></i></a>
+                          <a class="social2"><i class="fa fa-twitter"></i></a>
+                          <p>All copy Rights Reserved to Student Service Zone 2019</p>
 
-                       </div>
-             </div>
+                     </div>
            </div>
+         </div>
            <!--end endwebsite-->
            
            <script src="../js/jquery-1.12.4.min.js"></script>
