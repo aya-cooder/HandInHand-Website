@@ -30,7 +30,7 @@
  
    padding: 0 40px 0px 20px;
    height: 20px;
-   margin-top: -7px;
+   margin-top: -1px;
    margin-left: -30px;
    line-height: 60px;
    display: block;
@@ -40,9 +40,27 @@
  .navbar-brand img {
   width: 45px;
   height: 45px;
-  margin-left: 30px;
+  margin-left:-10px;
  }
+ #bell{
+  position: absolute;
+  color:#ff0000;
+  margin-top: 14px;
+  margin-left:30px;
+  font-size: 27px;
+ }
+ .language{
+   position: absolute;
+   margin-left: 75px;
+   margin-top:15px;
  
+ }
+ .language select {
+   color:#ff0000;
+  margin-top: -14px;
+  font-size: 17px;
+  border: none;
+ }
  .toggle {
    float: right;
    width: 57px;
@@ -324,7 +342,7 @@
  
    padding: 0 40px 0px 20px;
    height: 20px;
-   margin-top: -7px;
+   margin-top: -1px;
    margin-left: -30px;
    line-height: 60px;
    display: block;
@@ -336,7 +354,25 @@
   height: 45px;
   margin-left: 30px;
  }
+ #bell{
+  position: absolute;
+  color:#ff0000;
+  margin-top: 14px;
+  margin-left:85px;
+  font-size: 27px;
+ }
+ .language{
+   position: absolute;
+   margin-left: 125px;
+   margin-top:15px;
  
+ }
+ .language select {
+   color:#ff0000;
+  margin-top: -14px;
+  font-size: 17px;
+  border: none;
+ }
  .toggle {
    float: right;
    width: 57px;
@@ -565,6 +601,25 @@
  #links{
      margin-left: 280px;
  }
+ #bell{
+  position: absolute;
+  color:#ff0000;
+  margin-top: 20px;
+  margin-left:70px;
+  font-size: 27px;
+ }
+ .language{
+   position: absolute;
+   margin-left: 115px;
+   margin-top:20px;
+ 
+ }
+ .language select {
+   color:#ff0000;
+  margin-top: -14px;
+  font-size: 17px;
+  border: none;
+ }
  .nav > li {
    list-style: none;
    display: block;
@@ -601,6 +656,25 @@
  }
  #links{
      margin-left: 480px;
+ }
+ #bell{
+  position: absolute;
+  color:#ff0000;
+  margin-top: 20px;
+  margin-left:70px;
+  font-size: 27px;
+ }
+ .language{
+   position: absolute;
+   margin-left: 115px;
+   margin-top:20px;
+ 
+ }
+ .language select {
+   color:#ff0000;
+  margin-top: -14px;
+  font-size: 17px;
+  border: none;
  }
  .nav > li {
    list-style: none;
