@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/servicedescription.css">
-        <link rel="stylesheet" href="../css/servicedesresponsive.css" >
         <link rel="stylesheet" href="../css/navbar.css">
         <link rel="stylesheet" href="../css/navbar-responsive.css">
         <link rel="stylesheet" href="../bootstrab/bootstrap.min.js">
@@ -33,12 +32,25 @@ $(".toggle").click(function () {
         </script>
     </head>
     <body>    
-        <!-- Start Navbar -->
+                <!-- Start Navbar -->
         <div class="navbar elem-center">
             <div class="container">
                <div class="parent left-right">
                     <div class="navbar-header">   
                       <a href="" class="navbar-brand"><img src="../images/HandInHand.png"></a>
+                                                <i id="bell"class="fa fa-bell" aria-hidden="true"></i>
+                                                <div class="language">
+                                                       <td>
+                                <select>
+                                    <option>language</option>
+                                    
+                                    <option>عربي</option>
+                                    <option>Einglish</option>
+                                </select>
+                            </td>
+                        </tr>
+                                                </div>
+                                        
                     </div>
                       <ul class="nav navlist" id="links">
                         <li class="active">
@@ -60,11 +72,17 @@ $(".toggle").click(function () {
                                                 <ul >
                                                 <li >
                                                         <a href="items.html" data-value="about" id="link-nav" class="effect">Items</a>
+                                                        <hr id="link-nav">
                                                         <a href="service.html" data-value="port" id="link-nav"class="effect">Services</a>
+                                                        <hr id="link-nav">
                                                         <a href="events.html" data-value="foll" id="link-nav"class="effect">Events</a>
+                                                        <hr id="link-nav">
                                                         <a href="handemade.html" data-value="cont" id="link-nav"class="effect">Handmade</a>
+                                                        <hr id="link-nav">
                                                         <a href="login.html">login</a>
+                                                        <hr>
                                                         <a href="Resister.html">Register</a>
+                                                        <hr>
                                                         <a href="youracount.html">youracount</a>
                                                 </li>
                                                 </ul>
