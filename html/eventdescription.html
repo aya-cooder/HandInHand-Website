@@ -122,11 +122,41 @@ $(".toggle").click(function () {
              <div class="words">                       
             <h5>IEEE event in Zagazig</h5>
             <i class="fa fa-star-o"id="star"></i>
+               <!-- Trigger/Open The Modal -->
+               <button id="myBtn">Edit</button>
+               <!-- The Modal -->
+         <div id="myModal" class="modal">
+   
+           <!-- Modal content -->
+         <div class="modal-content">
+         <span class="close">&times;</span>
+    <form class="edit-item">   
+          <label for="w3review">Description</label>
+           <textarea id="w3review" name="w3review" rows="2" cols="55">
+           </textarea>   
+         <label for="w3review">TiTLe</label>
+          <textarea id="w3review" name="w3review" rows="1.100" cols="55">
+             </textarea>
+         <label for="w3review">Price</label>
+          <textarea id="w3review" name="w3review" rows="1.100" cols="55">
+          </textarea>
+         <label for="w3review">Phone</label>
+         <textarea id="w3review" name="w3review" rows="1.100" cols="55">
+         </textarea>
+         <label for="w3review">facebook</label>
+         <textarea id="w3review" name="w3review" rows="1.100" cols="55">
+         </textarea>
+         <div  >
+                  <input  style="background-color: #ff0000 ; color: aliceblue; width:100px; font-size: 20px;" type="submit" value="save">
+           </div>
+    </form>
+   </div>
+   </div>
             </div>
-         </div>
-  
+            </div>
+            </div>
+              
         <br>
-        
         <div class="About">
           <h1>About</h1>
           <p>IEEE organization is bla bla ....etc</p>
@@ -188,8 +218,7 @@ $(".toggle").click(function () {
        <!--end endwebsite-->
        
        <script src="../js/jquery-1.12.4.min.js"></script>
-
-
+       <script src="../js/itemdes.js"> </script>
 
     </body>
 
