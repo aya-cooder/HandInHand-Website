@@ -362,26 +362,58 @@ padding-bottom:35px ;
 
 }
 
-/*login*/
 
 .login-form {
   width: 45%;
-  height: 103vh;
+  height:110vh;
   background-color:#ffffff20;
   position: relative;
   margin-top: 98px;
   margin-left: 2px;
-  padding-top:21px;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
 
 
 }
-form  center i{
-color: #eee;
-margin-top: -60px;
+/* photo profile**********************************/
+.photo{
+  margin-left:20px;
 }
+
+#blah{
+  max-width:120px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.update-photo{
+  margin-top: 2px;
+}
+
+.inputfile {
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+
+}
+.inputfile + label {
+font-size: 1.25em;
+font-weight: 20px;
+color: white;
+background:#b3b3b3;
+display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+background-color: red;
+}
+
+/*login*/
+
 .validate-form{
 top: 0;
 }
@@ -393,7 +425,7 @@ input{
 .login-form form input{
 
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
 
 
 }
@@ -570,8 +602,8 @@ margin-top:-78px ;
 
 .new-account {
   width: 80%;
-  height: 3vh;
-  margin-top: 5px;
+  height: 5vh;
+  margin-top:3px;
   padding-left:10px;
 }
 span>a {
