@@ -98,40 +98,19 @@ $(".toggle").click(function () {
         
     </div>
     <!--end nevbar-->
-            <!--start item-->
-         <div class="item">               
-            <div class="imge">
-                <img src="../images/Rectangle3.png"id="profile">
-                <img src="../images/Rectangle2.png"id="linecolor">
-            </div>
-            <div class="ponts">
-              <button id="point" class="point">
-                                          <ul>
-                                             <li><span></span>
-                                                 <span></span>
-                                                 <span></span>
-                                             </li> 
-                                          </ul>
-                                    </button>
-            </div>
-             <div class="words">                       
-            <h5>Walter White</h5>
-            </div>
-         </div>
-        <br>
-        
-        <div class="Details">
-          <h1>Details</h1>
-          <h3> <a class="edit" href="#" style="color: #ff0000; ">Edit</a></h3>
-      </div>
-       
-  <section id="cont">
+            <!--start item-->      
+    <section id="cont">
     <!--Form-->
       <div class="login-form">
           <form class="validate-form" method="post">
-                 <center> <input type="file"
-                  id="avatar" name="avatar"
-                  accept="image/png, image/jpeg"><i class="fa fa-user-circle" aria-hidden="true" style="font-size: 95px;color: #ff0000;"></i></center>
+                 <center class="photo">
+                  <img id="blah" src="http://placehold.it/180" alt="your image" />
+                  <div class="update-photo">
+                  <input type="file" name="file" id="file" class="inputfile" onchange="readURL(this);" />
+                 <label for="file">update photo</label>
+                  </div>
+
+            </center>
     <!--username Input-->
                    
                       <div class="FirstName">
@@ -277,7 +256,7 @@ $(".toggle").click(function () {
 <!--==============================================================================-->
 <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-<script src="../js/login.js"> </script>
+<script src="../js/Resister.js"> </script>
 <!--===============================================================================================-->
   
 

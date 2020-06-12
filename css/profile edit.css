@@ -30,106 +30,9 @@
   
   
   /**start item**/
-  .item{
-     position: absolute;
-     width: 97%;
-     height: 500px;
-     margin-top: 0px;
-    
-     margin: 20px 0 0px 20px;
-     
-     
-  }
-  .item .imge{
-         width:100%;
-        height:500px;
-        position: absolute;
-        margin-top: 0px;
-        
-  }
-  #profile{
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   margin: 0px 0 0 0;
-   border-radius: 10px;
-  }
-  #linecolor{
-   width: 100%;
-   height: 300px;
-   position: relative;
-   margin: 200px 0 0 0;
-   border-radius: 10px;"
-  }
-  .item .ponts{
-   position: absolute;
-  }
-  #point{
-   width:10px;
-   margin: 30px 0px 0 0;
-   padding-left: 60px;
-  }
-  .item .ponts .point {
-    float: right;
-    padding-top: 0px;
-    position: absolute;
-    margin-top:0px;
-    margin-left: 1225px;
-    cursor: pointer;
-    background: none;
-    border: none;
-   
-  }
-  
-  .item .ponts .point >ul>li{
-  margin: -25px 1000px 0 0 ;
-  
-  }
-  
-  .item .ponts .point >ul>li>span {
-    display: block;
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    background: #fff;
-    /**haver backgrounf**/ margin-left:1170px;
-    margin-bottom: 3px;
-    
-    
-  }
-  .item .words{
-   position: absolute;
-   margin: 450px 0 0 20px;
-   width: 300px;
-  }
-  .item .words h5{
-      color: #fff;
-      font-size: 23px;
-      
-  }
-  
-  .Details{
-    position: absolute;
-    margin: 530px 0 0 20px ;
-  }
-  .Details h1{
-    font-size: 35px;
-    float: left;
-  }
-  .Details h3{
-    font-size: 30px;
-    height: 20px;
-    color: #ff0000;
-    float: right;
-    margin-left: 1100px;
-    
-  }
-  
-  
-  
 #cont {
    
-    margin-top:570px;
+    margin-top:150px;
     padding-bottom:35px ;
       background-size: cover;
       background-repeat: no-repeat;
@@ -156,12 +59,42 @@
       border-radius: 40px;
       display: flex;
       flex-direction: column;}
-  
+  /*-------photo profile-----*/
 
-  form  center i{
-  color: #eee;
-  margin: 10px 0 0 25px;
+      #blah{
+        max-width:500px;
+        max-height: 500px;
+        border-radius: 50px;
+      }
+      .photo{
+        margin-top:5px;
+      }
+      .update-photo{
+        margin-top: 3px;
+      }
+
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+   
   }
+  .inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background:#b3b3b3;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
   .validate-form{
     margin:auto;
     margin-top:20px;
@@ -359,7 +292,7 @@
     height: 100%;
     background-size:cover;
     position: absolute;
-    margin-top: 1600px;
+    margin-top:1200px;
      background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
    
    }
