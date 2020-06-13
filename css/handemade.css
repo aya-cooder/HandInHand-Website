@@ -96,23 +96,140 @@ button {
 
 /**start filter**/
 .filter{
-    margin-top: 400px;
-    position: relative;
-    text-align: center;
+  margin-top: 400px;
+  position: relative;
 }
 .filter button{
-    background-color: #ff0000;
-    border: none;
-    padding: 10px;
-    color: #ffff;
-    font-size: 17px;
-    border-radius: 4px;
-    letter-spacing: 1.5px;
+  background-color: #ff0000;
+  margin-left: 100px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  color: #ffff;
+  font-size: 17px;
+  border-radius: 4px;
+  letter-spacing: 1.5px;
 }
 .filter button i{
- padding: 5px;
+padding: 5px;
 }
 /**end filter**/
+  /********** (edit button)**********************************/
+#myBtn{
+font-size: 20px;
+width: 100px;
+height: 45px;
+color:#fff;
+background: #ff0000;
+text-align: center;
+margin-left: 700px;
+padding: 10px;
+border: none;
+border-radius: 4px;
+letter-spacing: 1.5px;
+}
+/**********************(start daliag)***********************/
+/* The Modal (background) */
+.modal {
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 10px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+display: flex;
+flex-direction: column;
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.content{
+height: 100%;
+width: 50%;
+background-color:#00363d; 
+margin: auto;
+border: 1px solid #888;
+display: flex;
+flex-direction: column;}
+/* The Close Button */
+.close {
+float: right;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+.edit-item{
+margin-left:100px;
+}
+/* photo profile**********************************/
+.photo{
+margin-left:20px;
+}
+
+#blah{
+max-width:120px;
+border-radius: 40px;
+position: relative;
+}
+
+.update-photo{
+margin-top: 2px;
+}
+
+.inputfile {
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+
+}
+.inputfile + label {
+font-size: 1.25em;
+font-weight: 20px;
+color: white;
+background:#b3b3b3;
+display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+background-color: red;
+}
+.home{
+margin-top: -40px;
+}
+label{
+color: #ff0000;
+font-weight: bold;
+font-size: 20px;
+display: block;
+}
+textarea,
+input{
+display: block;
+padding: 2px 10px ;
+}
+.submit{
+ width:100px; 
+ font-size: 20px;
+ margin-left:150px;
+ text-align: center;
+  margin-top:40px;
+  background-color: #ff0000;
+  border: none;
+  color: #ffff;
+  border-radius: 4px;
+}
+/********************** end dialog*************************************/
 
 
  .cotainer .row .items1{
