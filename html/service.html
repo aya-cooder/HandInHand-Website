@@ -121,11 +121,50 @@ $(".toggle").click(function () {
             
             
             
-            <!--start fileter-->
-            <div class="filter">
-               <button><i class="fa fa-filter"></i>Filter</button>
+                    <!--start fileter-->
+      <div class="filter">
+        <button><i class="fa fa-filter"></i>Filter</button>
+        <!-- Trigger/Open The Modal -->
+      <button id="myBtn">Add</button>
+      <!-- The Modal -->
+             <div id="myModal" class="modal"  >
+  <!-- Modal content -->
+              <div class="content">    
+                  <span class="close" style=" font-size: 35px;color: #ff0000;">&times;</span>
+       <form class="edit-item"> 
+                     <!-- select photo -->
+             <center  class="photo">
+                     <img id="blah" src="http://placehold.it/180" alt="your image" />
+          <div class="update-photo">
+                  <input type="file" name="file" id="file" class="inputfile" onchange="readURL(this);" />
+                      <label for="file">select photo</label>
+           </div> 
+             </center> 
+                         <div class="home">
+                        <label for="w3review">Description</label>
+                        <textarea id="w3review" name="w3review" rows="3" cols="55">
+                         </textarea>
+
+                        <label for="w3review">TiTLe</label>
+                       <textarea id="w3review" name="w3review" rows="2" cols="55">
+                       </textarea>
+
+                      <label for="w3review">Phone</label>
+                      <textarea id="w3review" name="w3review" rows="1.500" cols="55">
+                      </textarea>
+                       <label for="w3review">facebook</label>
+                         <textarea id="w3review" name="w3review" rows="2" cols="55">
+                          </textarea>
+                             <label for="w3review">Price</label>
+                          <input type="number" name="price" style="width: 430px;">
+            <br>
+                              <input class="submit" type="submit " value="save">
             </div>
-            <!--end fileter-->
+    </form>
+             </div>
+
+             </div>
+             </div>
             
             
             <!--start service-->
@@ -183,5 +222,6 @@ $(".toggle").click(function () {
            <!--end endwebsite-->
            
            <script src="../js/jquery-1.12.4.min.js"></script>
+           <script src="../js/itemdes.js"> </script>
     </body>
 </html>
