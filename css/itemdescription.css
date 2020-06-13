@@ -107,6 +107,7 @@ margin: -25px 1000px 0 0 ;
     font-size: 23px;
     
 }
+/********** (edit button)**********************************/
 #myBtn{
   font-size: 20px;
   width: 100px;
@@ -117,6 +118,7 @@ margin: -25px 1000px 0 0 ;
   margin-right: -900px;
   margin-top: 40px;
 }
+/**********************(start daliag)***********************/
 /* The Modal (background) */
 .modal {
   position: fixed; /* Stay in place */
@@ -134,18 +136,18 @@ margin: -25px 1000px 0 0 ;
 }
 
 /* Modal Content */
-.modal-content {
-background-color: #5B5959;
-  margin: auto;
-  width: 100%;
-  border: 1px solid #888;
-}
-
+.content{
+height: 100%;
+width: 50%;
+background-color:#00363d; 
+margin: auto;
+border: 1px solid #888;
+display: flex;
+flex-direction: column;}
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  
   float: right;
-  font-size: 28px;
   font-weight: bold;
 }
 
@@ -156,13 +158,59 @@ background-color: #5B5959;
   cursor: pointer;
 }
 .edit-item{
-  margin-top:35px;
+  margin: auto;
+  margin-left:100px;
+}
+/* photo profile**********************************/
+.photo{
+  margin-left:20px;
+}
+
+#blah{
+  max-width:120px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.update-photo{
+  margin-top: 2px;
+}
+
+.inputfile {
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+
+}
+.inputfile + label {
+font-size: 1.25em;
+font-weight: 20px;
+color: white;
+background:#b3b3b3;
+display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+background-color: red;
+}
+.home{
+  margin-top: -20px;
 }
 label{
   color: #ff0000;
   font-weight: bold;
   font-size: 20px;
+  display: block;
 }
+textarea,
+input{
+  display: block;
+  padding: 2px 10px ;
+}
+/*********************** (end daliag)***********************/
 .description{
     position: absolute;
     margin: 520px 0 0 20px ;
