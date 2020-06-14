@@ -87,11 +87,6 @@ position: absolute;
 }
 /** end items**/
 
-
-
-
-
-
 .filter{
   margin-top: 250px;
   position: relative;
@@ -160,43 +155,8 @@ cursor: pointer;
 .edit-item{
 margin-left:50px;
 }
-/* photo profile**********************************/
-.photo{
-margin-left:20px;
-}
-
-#blah{
-max-width:120px;
-border-radius: 40px;
-position: relative;
-}
-
-.update-photo{
-margin-top: 2px;
-}
-
-.inputfile {
-width: 0.1px;
-height: 0.1px;
-opacity: 0;
-overflow: hidden;
-position: absolute;
-
-}
-.inputfile + label {
-font-size: 1.25em;
-font-weight: 20px;
-color: white;
-background:#b3b3b3;
-display: inline-block;
-}
-
-.inputfile:focus + label,
-.inputfile + label:hover {
-background-color: red;
-}
 .home{
-margin-top: -40px;
+margin-top: 50px;
 }
 label{
 color: #ff0000;
@@ -466,7 +426,6 @@ position: absolute;
 
 
 
-  
 .filter{
   margin-top: 280px;
   position: relative;
@@ -572,7 +531,7 @@ display: inline-block;
 background-color: red;
 }
 .home{
-margin-top: -40px;
+margin-top: 50px;
 }
 label{
 color: #ff0000;
@@ -845,7 +804,6 @@ position: absolute;
 
 
 
-
 .filter{
   margin-top: 280px;
   position: relative;
@@ -915,43 +873,9 @@ flex-direction: column;}
 .edit-item{
   margin-left:70px;
 }
-/* photo profile**********************************/
-.photo{
-  margin-left:20px;
-}
 
-#blah{
-  max-width:120px;
-  border-radius: 40px;
-  position: relative;
-}
-
-.update-photo{
-  margin-top: 2px;
-}
-
-.inputfile {
-width: 0.1px;
-height: 0.1px;
-opacity: 0;
-overflow: hidden;
-position: absolute;
-
-}
-.inputfile + label {
-font-size: 1.25em;
-font-weight: 20px;
-color: white;
-background:#b3b3b3;
-display: inline-block;
-}
-
-.inputfile:focus + label,
-.inputfile + label:hover {
-background-color: red;
-}
 .home{
-  margin-top: -40px;
+  margin-top: 50px;
 }
 label{
   color: #ff0000;
@@ -1223,6 +1147,7 @@ position: absolute;
 
 
 
+
 .filter{
   margin-top: 370px;
   position: relative;
@@ -1250,7 +1175,6 @@ padding: 5px;
 text-align: center;
   color:#fff;
   background: #ff0000;
-  margin-left: 700px;
 }
 .modal {
   position: fixed; /* Stay in place */
@@ -1291,43 +1215,9 @@ flex-direction: column;}
 .edit-item{
   margin-left:100px;
 }
-/* photo profile**********************************/
-.photo{
-  margin-left:20px;
-}
 
-#blah{
-  max-width:120px;
-  border-radius: 40px;
-  position: relative;
-}
-
-.update-photo{
-  margin-top: 2px;
-}
-
-.inputfile {
-width: 0.1px;
-height: 0.1px;
-opacity: 0;
-overflow: hidden;
-position: absolute;
-
-}
-.inputfile + label {
-font-size: 1.25em;
-font-weight: 20px;
-color: white;
-background:#b3b3b3;
-display: inline-block;
-}
-
-.inputfile:focus + label,
-.inputfile + label:hover {
-background-color: red;
-}
 .home{
-  margin-top: -40px;
+  margin-top: 50px;
 }
 label{
   color: #ff0000;
