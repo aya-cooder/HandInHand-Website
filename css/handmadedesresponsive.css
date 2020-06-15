@@ -516,14 +516,72 @@ border-radius: 6px;
 
 
 }
-/**end item**/  
+/********** (delete button)**********************************/
+#myBtndelete{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: -110px;
+  position: absolute;
+  margin-top: 1160px;
+  border: none;
+}
+/********** (report button)**********************************/
+#myBtnreport{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 1170px;
+  border: none;
+  border-radius: 5px;
+}
+/**end item**/
+.spam-inappropriate{
+margin-left: -50px;
+position: absolute;
+
+}
+#spam {
+ margin-top: 5px;
+ margin-left: -70px;
+ 
+}
+#inappropriate{
+ margin-top: 20px;
+  margin-left: -70px;
+}
+.spam,.inappropriate{
+ padding-left: 25px;
+
+}
+.inappropriate{
+ margin-top: 20px;
+}
+.submit{
+  background-color: #ff0000;
+    color: aliceblue;
+   width:100px;
+   position: absolute;
+   font-size: 20px;
+   margin-left:40px;
+   text-align: center;
+    margin-top:40px;
+}
 .end{
 width:485px;
 max-width:767px;
-height: 60%;
+height: 80%;
 background-size:cover;
 position: absolute;
-margin-top: 1160px;
+margin-top: 1260px;
 background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }
@@ -587,7 +645,7 @@ position: absolute;
 }
 .end .link .social  p{
 color: #fff;
-margin-top: 300px;
+margin-top: 250px;
 margin-left:60px;
 font-size: 15px;
 position: absolute;
@@ -863,16 +921,74 @@ border-radius: 6px;
 
 }
 /**end item**/  
+/********** (delete button)**********************************/
+#myBtndelete{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: -250px;
+  position: absolute;
+  margin-top: 1160px;
+  border: none;
+}
+/********** (report button)**********************************/
+#myBtnreport{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: 500px;
+  position: absolute;
+  margin-top: 1170px;
+  border: none;
+  border-radius: 5px;
+}
+/**end item**/
+.spam-inappropriate{
+margin-left: -50px;
+position: absolute;
 
+}
+#spam {
+ margin-top: 5px;
+ margin-left: -70px;
+ 
+}
+#inappropriate{
+ margin-top: 20px;
+  margin-left: -70px;
+}
+.spam,.inappropriate{
+ padding-left: 25px;
+
+}
+.inappropriate{
+ margin-top: 20px;
+}
+.submit{
+  background-color: #ff0000;
+    color: aliceblue;
+   width:100px;
+   position: absolute;
+   font-size: 20px;
+   margin-left:40px;
+   text-align: center;
+    margin-top:40px;
+}
 
 
 .end{
 width:755px;
 max-width:991px;
-height: 65%;
+height: 95%;
 background-size:cover;
 position: absolute;
-margin-top: 1160px;
+margin-top: 1260px;
 background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }
@@ -1210,14 +1326,72 @@ border-radius: 6px;
 
 }
 /**end item**/  
+/********** (delete button)**********************************/
+#myBtndelete{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: -110px;
+  position: absolute;
+  margin-top: 1160px;
+  border: none;
+}
+/********** (report button)**********************************/
+#myBtnreport{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 1170px;
+  border: none;
+  border-radius: 5px;
+}
+/**end item**/
+.spam-inappropriate{
+margin-left: -50px;
+position: absolute;
 
+}
+#spam {
+ margin-top: 10px;
+ margin-left: 0px;
+ 
+}
+#inappropriate{
+ margin-top: 30px;
+  margin-left: 0px;
+}
+.spam,.inappropriate{
+ padding-left: 25px;
+
+}
+.inappropriate{
+ margin-top: 20px;
+}
+.submit{
+  background-color: #ff0000;
+    color: aliceblue;
+   width:100px;
+   position: absolute;
+   font-size: 20px;
+   margin-left:40px;
+   text-align: center;
+    margin-top:40px;
+}
 .end{
 width:965px;
 max-width:1200px;
-height: 85%;
+height: 125%;
 background-size:cover;
 position: absolute;
-margin-top: 1160px;
+margin-top: 1260px;
 background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }
@@ -1557,15 +1731,73 @@ border-radius: 6px;
 
 }
 /**end item**/  
+/********** (delete button)**********************************/
+#myBtndelete{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 1160px;
+  border: none;
+}
+/********** (report button)**********************************/
+#myBtnreport{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  margin-left: 200px;
+  position: absolute;
+  margin-top: 1170px;
+  border: none;
+  border-radius: 5px;
+}
+/**end item**/
+.spam-inappropriate{
+margin-left: -50px;
+position: absolute;
 
+}
+#spam {
+ margin-top: 10px;
+ margin-left: 0px;
+ 
+}
+#inappropriate{
+ margin-top: 30px;
+  margin-left: 0px;
+}
+.spam,.inappropriate{
+ padding-left: 25px;
+
+}
+.inappropriate{
+ margin-top: 20px;
+}
+.submit{
+  background-color: #ff0000;
+    color: aliceblue;
+   width:100px;
+   position: absolute;
+   font-size: 20px;
+   margin-left:40px;
+   text-align: center;
+    margin-top:40px;
+}
 
 .end{
 width:1210px;
 max-width:1300px;
-height: 93%;
+height: 130%;
 background-size:cover;
 position: absolute;
-margin-top: 1160px;
+margin-top: 1260px;
 background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }
