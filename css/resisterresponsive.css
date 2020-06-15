@@ -168,8 +168,9 @@ hr{
  }
  
  #blah{
-   max-width:120px;
-   border-radius: 40px;
+   max-width:300px;
+   max-height: 100px;
+   border-radius:20px;
    position: relative;
  }
  
