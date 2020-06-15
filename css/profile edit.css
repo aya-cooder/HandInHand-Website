@@ -32,7 +32,7 @@
   /**start item**/
 #cont {
    
-    margin-top:150px;
+    margin-top:140px;
     padding-bottom:35px ;
       background-size: cover;
       background-repeat: no-repeat;
@@ -63,7 +63,7 @@
 
       #blah{
         max-width:500px;
-        max-height: 500px;
+        max-height: 200px;
         border-radius: 50px;
       }
       .photo{
@@ -103,6 +103,7 @@
   input{
 
     padding-left: 20px;
+
   }
   
   .login-form form input{
@@ -152,36 +153,40 @@
     margin: auto;
   }
   .Gender{
-  font-family: arial;
-  position: absolute;
-  display: block;
-  width: 100%;
-  margin-top:-7px ;
-  margin-left: -30px;
-  font-size: 20px;
-  font-weight: bold;
-  color: rgb(248, 10, 10);
-  transition: all 0.4s;
-  pointer-events: none;
-  }
+    font-family: arial;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin-top:20px ;
+    margin-left: -40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(248, 10, 10);
+    transition: all 0.4s;
+    pointer-events: none;
+    }
   
-  .Male-Famel{
-  position: absolute;
-  display: block;
-  width: 100%;
-  margin-top:10px ;
-  padding:0px  10px;
-  
-  
-  }
-  .Male_input{
-    float: left;
-   
-  }
-  .Female-input{
-    float: right; 
-    padding-right: 312px;
-  }
+    .Male-Famel{
+      position: absolute;
+      display: block;
+      width: 100%;
+      margin-top:10px ;
+      padding:0px  10px;
+      margin-left: 100px;
+      
+      
+      }
+      .Male_input{
+        float: left;
+       
+      }
+      .Female-input{
+        float: right; 
+        padding-right: 312px;
+      }
+      #male , #female{
+        margin-top: 21px;
+      }
   
   .input1,.input2 ,.input3 ,.input4 ,.input5{
     width: 100%;
@@ -217,18 +222,18 @@
     [ Focus input ]*/
   .focus-input {
     font-family: arial;
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 17px;
-  left: 0;
-  padding:25px 0 0 0px;
-  font-size: 16px;
-  color:#000;
-  pointer-events: none;
-  
-  transition: all 0.4s;
-  
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 17px;
+    left: 0;
+    padding:25px 0 0 0px;
+    font-size: 16px;
+    pointer-events: none;
+    padding-left: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    transition: all 0.4s;
   }
   .input1:focus ~ .focus-input,
   .input1:valid ~ .focus-input,
@@ -241,7 +246,7 @@
   .input5:focus ~ .focus-input,
   .input5:valid ~ .focus-input
   {
-  margin-top:-30px ;
+  margin-top:-40px ;
   
   }
   /********************************- show pass-----------------------**/

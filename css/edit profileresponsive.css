@@ -115,7 +115,7 @@
   
 #cont {
    
-    margin-top:570px;
+    margin-top:150px;
     padding-bottom:35px ;
       background-size: cover;
       background-repeat: no-repeat;
@@ -209,7 +209,7 @@
   position: absolute;
   display: block;
   width: 100%;
-  margin-top:-7px ;
+  margin-top:15px ;
   margin-left: -30px;
   font-size: 20px;
   font-weight: bold;
@@ -246,6 +246,7 @@
     background:#b3b3b3;
   
   }
+  
   #male,#female{
     position: absolute;
     width:40px;
@@ -270,17 +271,18 @@
     [ Focus input ]*/
   .focus-input {
     font-family: arial;
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 17px;
-  left: 0;
-  padding:25px 0 0 0px;
-  font-size: 16px;
-  color:#000;
-  pointer-events: none;
-  
-  transition: all 0.4s;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 17px;
+    left: 0;
+    padding:25px 0 0 0px;
+    font-size: 16px;
+    pointer-events: none;
+    padding-left: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    transition: all 0.4s;
   
   }
   .input1:focus ~ .focus-input,
@@ -340,12 +342,12 @@
   
   /** start social**/
 .end{
-    width:485px;
+    width:100%;
     max-width:767px;
     height: 60%;
     background-size:cover;
     position: absolute;
-    margin-top: 1600px;
+    margin-top: 1200px;
      background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
    
    }
@@ -517,7 +519,7 @@
 
 #cont {
 
-margin-top:570px;
+margin-top:150px;
 padding-bottom:35px ;
   background-size: cover;
   background-repeat: no-repeat;
@@ -546,10 +548,6 @@ padding-bottom:35px ;
   flex-direction: column;}
 
 
-form  center i{
-color: #eee;
-margin: 10px 0 0 -350x;
-}
 .validate-form{
 margin:auto;
 margin-top:20px;
@@ -611,7 +609,7 @@ font-family: arial;
 position: absolute;
 display: block;
 width: 100%;
-margin-top:-7px ;
+margin-top:15px ;
 margin-left: -30px;
 font-size: 20px;
 font-weight: bold;
@@ -671,18 +669,19 @@ display: none;
 /*==================================================================
 [ Focus input ]*/
 .focus-input {
-font-family: arial;
-position: absolute;
-display: block;
-width: 100%;
-top: 17px;
-left: 0;
-padding:25px 0 0 0px;
-font-size: 16px;
-color:#000;
-pointer-events: none;
-
-transition: all 0.4s;
+  font-family: arial;
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 17px;
+  left: 0;
+  padding:25px 0 0 0px;
+  font-size: 16px;
+  pointer-events: none;
+  padding-left: 20px;
+  color: #ff0000;
+  font-weight: bold;
+  transition: all 0.4s;
 
 }
 .input1:focus ~ .focus-input,
@@ -747,7 +746,7 @@ cursor: pointer;
     height: 65%;
     background-size:cover;
     position: absolute;
-    margin-top: 1600px;
+    margin-top: 1200px;
      background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
    
    }
@@ -913,7 +912,7 @@ cursor: pointer;
        
 #cont {
 
-    margin-top:570px;
+    margin-top:150px;
     padding-bottom:35px ;
       background-size: cover;
       background-repeat: no-repeat;
@@ -1007,7 +1006,7 @@ cursor: pointer;
     position: absolute;
     display: block;
     width: 100%;
-    margin-top:-7px ;
+    margin-top:15px ;
     margin-left: -30px;
     font-size: 20px;
     font-weight: bold;
@@ -1067,18 +1066,19 @@ cursor: pointer;
     /*==================================================================
     [ Focus input ]*/
     .focus-input {
-    font-family: arial;
-    position: absolute;
-    display: block;
-    width: 100%;
-    top: 17px;
-    left: 0;
-    padding:25px 0 0 0px;
-    font-size: 16px;
-    color:#000;
-    pointer-events: none;
-    
-    transition: all 0.4s;
+      font-family: arial;
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 17px;
+      left: 0;
+      padding:25px 0 0 0px;
+      font-size: 16px;
+      pointer-events: none;
+      padding-left: 20px;
+      color: #ff0000;
+      font-weight: bold;
+      transition: all 0.4s;
     
     }
     .input1:focus ~ .focus-input,
@@ -1141,7 +1141,7 @@ cursor: pointer;
         height: 85%;
         background-size:cover;
         position: absolute;
-        margin-top: 1600px;
+        margin-top: 1200px;
         background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
         
         }
@@ -1315,7 +1315,7 @@ cursor: pointer;
   
 #cont {
    
-    margin-top:570px;
+    margin-top:150px;
     padding-bottom:35px ;
       background-size: cover;
       background-repeat: no-repeat;
@@ -1409,7 +1409,7 @@ cursor: pointer;
   position: absolute;
   display: block;
   width: 100%;
-  margin-top:-7px ;
+  margin-top:15px ;
   margin-left: -30px;
   font-size: 20px;
   font-weight: bold;
@@ -1470,17 +1470,18 @@ cursor: pointer;
     [ Focus input ]*/
   .focus-input {
     font-family: arial;
-  position: absolute;
-  display: block;
-  width: 100%;
-  top: 17px;
-  left: 0;
-  padding:25px 0 0 0px;
-  font-size: 16px;
-  color:#000;
-  pointer-events: none;
-  
-  transition: all 0.4s;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 17px;
+    left: 0;
+    padding:25px 0 0 0px;
+    font-size: 16px;
+    pointer-events: none;
+    padding-left: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    transition: all 0.4s;
   
   }
   .input1:focus ~ .focus-input,
@@ -1545,7 +1546,7 @@ cursor: pointer;
     height: 100%;
     background-size:cover;
     position: absolute;
-    margin-top: 1600px;
+    margin-top: 1200px;
      background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
    
    }
