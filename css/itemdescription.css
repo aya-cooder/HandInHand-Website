@@ -117,6 +117,7 @@ margin: -25px 1000px 0 0 ;
   float: right;
   margin-right: -900px;
   margin-top: 40px;
+   border: none;
 }
 /**********************(start daliag)***********************/
 /* The Modal (background) */
@@ -134,7 +135,9 @@ margin: -25px 1000px 0 0 ;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
+#myModalete{
+  padding: 50px;/* Location of the box */
+  }
 /* Modal Content */
 .content{
 height: 100%;
@@ -144,8 +147,15 @@ margin: auto;
 border: 1px solid #888;
 display: flex;
 flex-direction: column;}
-/* The Close Button */
-.close {
+.contentreport{
+height: 50%;
+width: 50%;
+background-color:#00363d; 
+margin: auto;
+border: 1px solid #888;
+display: flex;
+flex-direction: column;}
+.close , .closereport{
   
   float: right;
   font-weight: bold;
@@ -153,6 +163,12 @@ flex-direction: column;}
 
 .close:hover,
 .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closereport:hover,
+.closereport:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -167,8 +183,9 @@ flex-direction: column;}
 }
 
 #blah{
-  max-width:120px;
-  border-radius: 40px;
+  max-width:300px;
+  max-height: 100px;
+  border-radius: 20px;
   position: relative;
 }
 
@@ -199,6 +216,10 @@ background-color: red;
 .home{
   margin-top: -40px;
 }
+.homereport{
+ margin-left: 50px;
+ margin-top: 40px;
+}
 label{
   color: #ff0000;
   font-weight: bold;
@@ -210,12 +231,31 @@ input{
   display: block;
   padding: 2px 10px ;
 }
+.spam-inappropriate{
+margin-left: 100px;
+position: absolute;
+
+}
+#spam {
+ margin-top: 10px;
+}
+#inappropriate{
+ margin-top: 30px;
+}
+.spam,.inappropriate{
+ padding-left: 25px;
+
+}
+.inappropriate{
+ margin-top: 20px;
+}
 .submit{
   background-color: #ff0000;
     color: aliceblue;
-   width:100px; 
+   width:100px;
+   position: absolute;
    font-size: 20px;
-   margin-left:150px;
+   margin-left:40px;
    text-align: center;
     margin-top:40px;
 }
@@ -292,6 +332,33 @@ input{
 }
 /**end item**/
 
+/********** (delete button)**********************************/
+#myBtndelete{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+ margin-left: -410px;
+  position: absolute;
+  margin-top: 1160px;
+  border: none;
+}
+/********** (report button)**********************************/
+#myBtnreport{
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color:#fff;
+  background: #ff0000;
+  float: right;
+  border-radius: 5px;
+  margin-left: 800px;
+  position: absolute;
+  margin-top: 1170px;
+  border: none;
+}
 
 
 /** start social**/
@@ -300,7 +367,7 @@ input{
  height: 100%;
  background-size:cover;
  position: absolute;
- margin-top: 1200px;
+ margin-top: 1270px;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(0, 54, 61));
 
 }
