@@ -118,6 +118,7 @@ margin: -25px 1000px 0 0 ;
 }
 .Details h3{
   font-size: 25px;
+  font-weight:bold ;
   height: 20px;
   color: #ff0000;
   float: right;
