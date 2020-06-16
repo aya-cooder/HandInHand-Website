@@ -117,6 +117,8 @@ $(".toggle").click(function () {
              <div class="words">                       
             <h5>IEEE event in Zagazig</h5>
             <i class="fa fa-star-o"id="star"></i>
+            
+            
                
                <!-- Trigger/Open The Modal -->
             <button id="myBtn">Edit</button>
@@ -135,9 +137,9 @@ $(".toggle").click(function () {
                </div> 
                 </center> 
           <div class="home">
-               <label for="w3review">Description</label>
-                   <textarea id="w3review" name="w3review" rows="3" cols="55">
-                    </textarea>
+             <label for="w3review">Description</label>
+               <textarea id="w3review" name="w3review" rows="3" cols="55">
+               </textarea>
   
              <label for="w3review">TiTLe</label>
                <textarea id="w3review" name="w3review" rows="2" cols="55">
@@ -146,23 +148,25 @@ $(".toggle").click(function () {
                 <label for="w3review">About</label>
                   <textarea id="w3review" name="w3review" rows="2" cols="55">
                   </textarea>
-
                 <label for="w3review">Location</label>
                     <textarea id="w3review" name="w3review" rows="2" cols="55">
                     </textarea>
-
                  <label for="w3review">date </label>
                      <input type="datetime-local" name="date" style="width: 430px;direction:ltr;
                      unicode-bidi: bidi-override;">
-
                      <input class="submit" type="submit " value="save">
            </div>
     </form>
    </div>
    </div>
-            
             </div>
-     <!-------------------end edit dailoag---------------------------------------->         
+            </div>
+            </div>
+     <!-------------------end edit dailoag---------------------------------------->
+     
+     
+ 
+     
         <br>
         <div class="About">
           <h1>About</h1>
@@ -199,8 +203,45 @@ $(".toggle").click(function () {
 
     <!--end item-->
     
-    
-    
+    <form method="post">
+      <input id="myBtninterest" class="login-button" type="submit" value="Interset">
+       </form>
+         <!-- start buttom delete-->
+      <form method="post">
+          <input id="myBtndelete" class="login-button" type="submit" value="delete">
+     </form>
+     <!-- end buttom delete-->
+      <!-- start buttom delete-->
+     <button id="myBtnreport">Report</button>
+           <div id="myModalete" class="modal"  >
+        <!-- Modal content -->
+      <div class="contentreport">    
+      <span class="closereport" style=" font-size: 35px;color: #ff0000;">&times;</span>
+      <form class="edit-item"> 
+        <!-- select photo -->
+         
+     </center> 
+     <div class="homereport">
+               <div class="spam-inappropriate">
+                <div class="spam_input">
+                  <input  type="radio" id="spam"  value="spam" name="any name you want" >
+                  <label class="spam" for="spam">spam</label>
+                </div>
+                <div class="inappropriate-input">
+                  <input type="radio" id="inappropriate" name="any name you want" value="inappropriate" >
+                  <label  class="inappropriate"for="inappropriate">inappropriate</label>
+                </div>
+        
+           <br>
+                 <input class="submit" type="submit " value="save">
+         </form>
+  </div>
+
+</div>
+            </div>
+         </div>
+        
+     <!-- end buttom delete-->
     
                <!--start endwebsite-->
        <div class="end">
