@@ -390,7 +390,7 @@ font-family: arial;
 .input1:valid ~ .focus-input,
 .input5:focus ~ .focus-input,
 .input5:valid ~ .focus-input {
- top: -25px;
+ top:-15px;
  left: 0;
 }
 /* password*/
